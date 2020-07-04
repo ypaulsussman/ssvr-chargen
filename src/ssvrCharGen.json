@@ -1,0 +1,381 @@
+{
+  "pcAttributes": {
+    "races": {
+      "human": {
+        "name": "Human",
+        "weight": 4,
+        "description": "youngest, most adaptable, and ambitious of the common races - innovators, achievers, and pioneers of the worlds - lasting institutions, variety in all things - everyone's second-best friends",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/races#Human"
+      },
+      "halfWoodElf": {
+        "name": "Half Wood-Elf",
+        "weight": 1,
+        "description": "of two worlds - diplomats or wanderers - keen senses and intuition - fleet feet - wood elves reclusive, distrusting of humans",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/races#HalfElf"
+      },
+      "halfOrc": {
+        "name": "Half-Orc",
+        "weight": 1,
+        "description": "scarred and strong - the mark of gruumsh; powerful rage - tribes and slums - grudging acceptance",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/races#HalfOrc"
+      },
+      "goldDwarf": {
+        "name": "Gold Dwarf",
+        "weight": 1,
+        "description": "short and stout - warriors, miners, and workers of stone and metal - long memory, long grudges - determined and loyal - gods and clan - slow to trust",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/races#Dwarf"
+      },
+      "yuanTiPureblood": {
+        "name": "Yuan-Ti Pureblood",
+        "weight": 1,
+        "description": "unaware of ancestry - typical human, save with infrequent, inexplicable impulses toward 'other lives are cheap - survival first - depend on deceit' that you find yourself horrified by... but can't explain",
+        "link": "https://www.dndbeyond.com/races/yuan-ti-pureblood"
+      }
+    },
+    "classes": {
+      "bard": {
+        "name": "Bard",
+        "description": "music and magic - sheer versatility - learning from experience - discoveries beyond the horizon",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Bard",
+        "archetypes": {
+          "collegeOfLore": {
+            "name": "College of Lore",
+            "description": "know something about most things - pursuit of beauty and truth - cutting words - magical secrets - peerless skill"
+          },
+          "collegeOfSwords": {
+            "name": "College of Swords",
+            "description": "daring feats of weapon prowess - talent for performance - duelling or two-weapon fighting style - blade flourish - extra attack"
+          },
+          "collegeOfValor": {
+            "name": "College of Valor",
+            "description": "keep alive the heroes of the past - inspire others to reach the same heights - combat inspiration - extra attack - battle magic"
+          },
+          "collegeOfWhispers": {
+            "name": "College of Whispers",
+            "description": "uncover secrets and turn them against others - infiltrate and exploit courts or settings of power - psychic blades - words of terror - shadow lore"
+          }
+        }
+      },
+      "cleric": {
+        "name": "Cleric",
+        "description": "power of the gods - devotion and intuition - healing, inspiring, smiting",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Cleric",
+        "archetypes": {
+          "helm": {
+            "name": "Helm (Protection)",
+            "description": "The god of vigilance and protection, He of the Unsleeping Eye is seen as the epitome of the guardian, the watcher, and the guard. Helm is venerated by those who need to remain watchful for enemies or danger. He is a favorite deity of people who make a living by protecting someone or something, such as bodyguards, members of the city watch, and the guards of a treasury vault."
+          },
+          "tempus": {
+            "name": "Tempus (War)",
+            "description": "Tempus is the god of war, concerned with brave conduct, using force of arms over talk, and encouraging bloodshed. The Lord of Battles' chaotic nature favors all sides equally: Tempus might be an army’s ally one day, and its enemy the next. While The Foehammer's favor is randomly distributed, over the centuries his priests have made an effort to enforce a common code of warfare — to make it a thing of rules, respect for reputations, and professional behavior. This code, Tempus’s Honor, has the purpose of making conflicts brief, decisive, and as safe as possible for those not directly involved."
+          },
+          "waukeen": {
+            "name": "Waukeen (Knowledge)",
+            "description": "Our Lady of Gold is the goddess of wealth and trade, on both sides of the law. Her most ardent worshipers include shopkeepers, members of trading costers, caravan guides, peddlers, moneychangers, and smugglers. The Merchant's Friend is interested in anything that increases trade and the flow of money, whether new trade routes, new inventions, or the whim of changing fashion. Those who take Waukeen as a patron can be reliably thought of as greedy, but the Coinmaiden is said to frown upon misers and smile upon the industrious and profligate, and thus priests who bear her holy symbol find themselves welcome in many towns and cities."
+          }
+        }
+      },
+      "fighter": {
+        "name": "Fighter",
+        "description": "mastery of weapons and armor - combat style specialization - dangerous work is second nature",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Fighter",
+        "archetypes": {
+          "battleMaster": {
+            "name": "Battle Master",
+            "description": "war as an academic field - combat superiority - maneuvers and techniques"
+          },
+          "champion": {
+            "name": "Champion",
+            "description": "remarkable athlete - devastating blows - survivor"
+          },
+          "eldritchKnight": {
+            "name": "Eldritch Knight",
+            "description": "War magic - eldritch strike - arcane charge"
+          }
+        }
+      },
+      "monk": {
+        "name": "Monk",
+        "description": "harness the energy that flows in your body - training and asceticism - uncanny speed and strength",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Monk",
+        "archetypes": {
+          "drunkenMaster": {
+            "name": "Way of the Drunken Master (City Brawler)",
+            "description": "jerky, unpredictable movements - maddening, masterful foe - play the fool, bring gladness, demonstrate humility"
+          },
+          "kensei": {
+            "name": "Way of the Kensei (Bladelord Legacy)",
+            "description": "the weapon becomes an extension of the body - a tool to express beauty and precision"
+          },
+          "wayOfMercy": {
+            "name": "Way of Mercy (Path of Mussum and Nun)",
+            "description": "wandering physicians to the poor and hurt - to the evil, a swift end as an act of kindness"
+          }
+        }
+      },
+      "paladin": {
+        "name": "Paladin",
+        "description": "a commitment to justice itself - martial skills and magical power - front lines of the cosmic struggle against evil",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Paladin",
+        "archetypes": {
+          "crown": {
+            "name": "Oath of the Crown",
+            "description": "the ideals of civilization - serving society and the laws that hold it together - guardians on the walls against barbarism"
+          },
+          "devotion": {
+            "name": "Oath of Devotion",
+            "description": "sworn to gods of law and good - loftiest ideals of justice, virtue, and order - knight in shining armor"
+          },
+          "redemption": {
+            "name": "Oath of Redemption",
+            "description": "violence only as a last resort - hope of turning their foes to the light - no fools; know that undead, demons, devils, and other supernatural horrors must meet the wrath of the sword"
+          }
+        }
+      },
+      "ranger": {
+        "name": "Ranger",
+        "description": "protect the borderlands - harness nature’s power - speed, stealth, and the hunt",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Ranger",
+        "archetypes": {
+          "gloomStalker": {
+            "name": "Gloom Stalker",
+            "description": "at home in the darkest places - ambush threats before they can reach the broader world"
+          },
+          "hunter": {
+            "name": "Hunter",
+            "description": "bulwark of civilization - specialized tactics for fighting the terrors of the wilderness"
+          },
+          "monsterSlayer": {
+            "name": "Monster Slayer",
+            "description": "hunt down creatures of the night and wielders of grim magic - trained in supernatural techniques"
+          }
+        }
+      },
+      "rogue": {
+        "name": "Rogue",
+        "description": "get the upper hand in any situation - resourcefulness and versatility - cunning over brute strength",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Rogue",
+        "archetypes": {
+          "arcaneTrickster": {
+            "name": "Arcane Trickster",
+            "description": "stealth and agility - tricks of enchantment and illusion - pickpockets, burglars, and adventurers "
+          },
+          "inquisitive": {
+            "name": "Inquisitive",
+            "description": "rooting out secrets and unraveling mysteries - read the words and deeds of other creatures - mastery of lore and keen deductions"
+          },
+          "soulknife": {
+            "name": "Soulknife",
+            "description": "infiltrate and strike with the mind - channel psionic power to do your work"
+          },
+          "thief": {
+            "name": "Thief",
+            "description": "the larcenous arts- improved agility and stealth - professional treasure seekers, explorers, and delvers"
+          }
+        }
+      },
+      "sorcerer": {
+        "name": "Sorcerer",
+        "description": "inborn magical talent - body, mind, and spirit suffused with raw power",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Sorcerer",
+        "archetypes": {
+          "draconic": {
+            "name": "Draconic Bloodline (Blue or Gold)",
+            "description": "draconic magic, or parentage, mingled with the blood of your ancestors"
+          },
+          "psionicSoul": {
+            "name": "Psionic Soul (Descendent of the Psiarchs)",
+            "description": "your mind simmers with power"
+          },
+          "stormSorcery": {
+            "name": "Storm Sorcery",
+            "description": "the forces of elemental air permeate your being"
+          }
+        }
+      },
+      "warlock": {
+        "name": "Warlock",
+        "description": "defined by a pact with an otherworldly being - seekers of the knowledge that lies hidden - magical effects both subtle and spectacular",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Warlock",
+        "archetypes": {
+          "celestial": {
+            "name": "The Celestial (Auppenser's Chamberlain)",
+            "description": "patron is a powerful being of the Upper Planes - bring light to the dark places of the world"
+          },
+          "hexblade": {
+            "name": "The Hexblade (The Glory of Dhinnilith)",
+            "description": "patron is a mysterious entity that manifests in sentient magic weapons"
+          },
+          "deepLurker": {
+            "name": "The Lurker in the Deep (Naarkolyth's Ghost)",
+            "description": "patron is something ancient, something that dwells deep below the waves"
+          }
+        }
+      },
+      "wizard": {
+        "name": "Wizard",
+        "description": "supreme magic-users - scholars of the arcane - live and die by spells, everything else secondary - lure of ancient knowledge",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Wizard",
+        "archetypes": {
+          "abjuration": {
+            "name": "School of Abjuration",
+            "description": "magic that blocks, banishes, or protects - a proud and respected vocation"
+          },
+          "divination": {
+            "name": "School of Divination",
+            "description": "part the veils of space, time, and consciousness to see clearly - discernment, remote viewing, supernatural knowledge, and foresight"
+          },
+          "evocation": {
+            "name": "School of Evocation",
+            "description": "create powerful elemental effects - freezing cold, searing flame, crackling lightning, melting acid - spectacular blasting power"
+          },
+          "transmutation": {
+            "name": "School of Transmutation",
+            "description": "modify energy and matter - a smith on reality’s forge - alter physical forms and mental qualities"
+          }
+        }
+      }
+    },
+    "characterHooks": {
+      "alabasterOutcast": {
+        "name": "Alabaster Outcast",
+        "description": "You are a member of one of Arrabar's wealthier families... or rather, you used to be. A falling-out left you disowned and disinherited. Now you hope to get away from the city and find fortune enough to shame your former kinsfolk — goals which led you to the Harpers. Despite your exile, your name still carries considerable weight in the region.",
+        "backgrounds": [
+          "Acolyte",
+          "Charlatan",
+          "Cloistered Scholar",
+          "Courtier",
+          "Criminal",
+          "Entertainer",
+          "Faction Agent",
+          "Hermit",
+          "Noble",
+          "Sage"
+        ]
+      },
+      "exDockTough": {
+        "name": "Ex-Dock Tough",
+        "description": "Though you were raised as a member of one of Mimph's various criminal gangs, you never fit in with the rest of your settled, metropolitan brethren. The Harpers in particular recognized your wanderlust and potential as an agent. Over the years, you fell out of favor with the dockland gangs, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you. ",
+        "backgrounds": [
+          "Charlatan",
+          "Criminal",
+          "Entertainer",
+          "Folk Hero",
+          "Gladiator",
+          "Mercenary Veteran",
+          "Pirate",
+          "Sailor",
+          "Soldier",
+          "Urchin"
+        ]
+      },
+      "exchangeAgent": {
+        "name": "Exchange Agent",
+        "description": "Although you're a relative newcomer to Sespech, you're not some naive stranger. You've been sent by the Harper network of the Dales to learn more about the Vilhon Reach by experiencing the frontier firsthand. After arriving, you reported to Mimph and placed your expertise at Sendra's disposal.",
+        "backgrounds": [
+          "Acolyte",
+          "Anthropologist",
+          "Archaeologist",
+          "Courtier",
+          "Entertainer",
+          "Faction Agent",
+          "Investigator",
+          "Knight of the Order",
+          "Sailor",
+          "Spy"
+        ]
+      },
+      "monumentScholar": {
+        "name": "Monument Scholar",
+        "description": "As a child in Mimph, the city's ancient architecture inspired you with wonder. Your fascination with these relics has only grown in the years since: and, though you know little about the actual lore of the millennia-old monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks. Through these studies, you've encountered the research of Harrovyr/Martish several times... and they, apparently, have heard of you.",
+        "backgrounds": [
+          "Anthropologist",
+          "Archaeologist",
+          "City Watch",
+          "Cloistered Scholar",
+          "Guild Artisan",
+          "Hermit",
+          "Inheritor",
+          "Noble",
+          "Sage",
+          "Urchin"
+        ]
+      },
+      "regionalWanderer": {
+        "name": "Regional Wanderer",
+        "description": "You are a member of the Turami or Shaaran ethnicity; you left your homeland to learn more about the mysteries of the wider world. Your travels have recently brought you to the Mimph, and the attentions of a local scholar.",
+        "backgrounds": [
+          "Acolyte",
+          "Entertainer",
+          "Far Traveler",
+          "Folk Hero",
+          "Gladiator",
+          "Guild Merchant",
+          "Inheritor",
+          "Knight",
+          "Mercenary Veteran",
+          "Outlander"
+        ]
+      },
+      "ruinRaider": {
+        "name": "Ruin Raider",
+        "description": "While the mercantile networks of the Vilhon Reach appeal to your keen eye for monetary gain, you know that the boldest route to true fortune lies in hunting down rare relics and selling them to the highest bidder. Working for the Harpers seemed like an obvious decision, paying for you to travel throughout the region in your search for wealth, so you signed up right away. You brought with you a sharp eye and keen ability to distinguish fakes from the genuine article.",
+        "backgrounds": [
+          "Anthropologist",
+          "Archaeologist",
+          "Charlatan",
+          "Criminal",
+          "Guild Artisan",
+          "Guild Merchant",
+          "Hermit",
+          "Inheritor",
+          "Investigator",
+          "Urban Bounty Hunter"
+        ]
+      }
+    },
+    "npcConnections": {
+      "harrovyr": {
+        "name": "Lady Sendra Harrovyr",
+        "description": "human fighter, morningstar and quarterstaff - scholar of tactics, historian of battles - originally from Cormyr - clandestine Harper, reluctant schemer",
+        "image": ""
+      },
+      "martish": {
+        "name": "Sir Curonar Martish",
+        "description": "expatriate Turami noble - acclaimed scholar of the Vilhon Reach - socially refined, public face of Martish House - spouse of Sendra Harrovyr",
+        "image": ""
+      },
+      "tauno": {
+        "name": "Admiral Kalisa Tauno",
+        "description": "Lord-Mayor of Mimph - first Sespech high official not from the Baron's old adventuring band - friendly but tired, constantly harried by matters of the governance - current focus is building fleet to counter Arrabar piracy",
+        "image": ""
+      },
+      "ferrentio": {
+        "name": "Watcher (Marasa) Ferrentio",
+        "description": "high priestess at temple of Helm (largest in city) - young, powerful force within the entire church hierarchy - temple works with city guard to ensure no region is unpatrolled - also sponsors itinerant Helmite clerics and paladins across the Reach",
+        "image": ""
+      },
+      "nivlandil": {
+        "name": "Leïs Nívlandil",
+        "description": "headmaster of Stone of the Seers (small/only school of magic in city) - focus on abjuration and divination magics - air of elitism ascribed to students and faculty - small size actually stems from reticence: knows how mistrusted wizards (and elves) are in the Reach, and wants to tread lightly",
+        "image": ""
+      },
+      "kalmeralm": {
+        "name": "Sabriyya Kalmeralm",
+        "description": "owner of the Bazaar of Sails - keeps the peace between squabbling traders, maintains fair prices, limits racketeering - quick wit, aristocratic bearing, fiery temper, and unforgiving memory - daughter of the first Prince of the Market (who disappeared ~30 years ago)",
+        "image": ""
+      },
+      "raakes": {
+        "name": "Ma'am Raakës",
+        "description": "half-elven owner of the Coral Reef (largest festhall in town) - four-storey, flamboyant seaside manor-house - beneath passionate facade, a cold-eyed power-broker among the merchants and nobility",
+        "image": ""
+      },
+      "droaeb": {
+        "name": "Jorsten Draeb",
+        "description": "dwarven Master of Games at the Serpent's Run (city hippodrome) - prefers to host decathlons, horse and dog races, displays of magic, circus performances, and (on rare occasions) mock-gladiatorial battles - despite frequent requests, never books what he classifies 'bloodsport'",
+        "image": ""
+      }
+    },
+    "backgrounds": {}
+  }
+}

@@ -1,12 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import CharGen from './CharGen'
-import {
-  BrowserRouter as Router,
-  Route,
-} from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import App from "./App";
+import CharGen from "./CharGen";
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,5 +16,5 @@ ReactDOM.render(
       </Route>
     </Router>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
