@@ -104,11 +104,11 @@
             "description": "jerky, unpredictable movements - maddening, masterful foe - play the fool, bring gladness, demonstrate humility"
           },
           "kensei": {
-            "name": "Way of the Kensei (Bladelord Legacy)",
+            "name": "Way of the Kensei (Descendent of the Bladelords)",
             "description": "the weapon becomes an extension of the body - a tool to express beauty and precision"
           },
           "wayOfMercy": {
-            "name": "Way of Mercy (Path of Mussum and Nun)",
+            "name": "Way of Mercy (Paths of Mussum and Nun)",
             "description": "wandering physicians to the poor and hurt - to the evil, a swift end as an act of kindness"
           }
         }
@@ -239,141 +239,151 @@
     "characterHooks": {
       "alabasterOutcast": {
         "name": "Alabaster Outcast",
-        "description": "You are a member of one of Arrabar's wealthier families... or rather, you used to be. A falling-out left you disowned and disinherited. Now you hope to get away from the city and find fortune enough to shame your former kinsfolk — goals which led you to the Harpers. Despite your exile, your name still carries considerable weight in the region.",
-        "backgrounds": [
-          "Acolyte",
-          "Charlatan",
-          "Cloistered Scholar",
-          "Courtier",
-          "Criminal",
-          "Entertainer",
-          "Faction Agent",
-          "Hermit",
-          "Noble",
-          "Sage"
-        ]
+        "description": "You are a member of one of Arrabar's wealthier families... or rather, you used to be. A falling-out left you disowned and disinherited. You now hope find fortune and reknown enough to shame your former kinsfolk — goals which led you to the Harpers. Despite your exile, your family name still carries considerable weight in the region.",
+        "backgrounds": {
+          "acolyte": { "name": "Acolyte", "description": "" },
+          "charlatan": { "name": "Charlatan", "description": "" },
+          "cloisteredScholar": {
+            "name": "Cloistered Scholar",
+            "description": ""
+          },
+          "courtier": { "name": "Courtier", "description": "" },
+          "criminal": { "name": "Criminal", "description": "" },
+          "entertainer": { "name": "Entertainer", "description": "" },
+          "factionAgent": { "name": "Faction Agent", "description": "" },
+          "hermit": { "name": "Hermit", "description": "" },
+          "noble": { "name": "Noble", "description": "" },
+          "sage": { "name": "Sage", "description": "" }
+        }
       },
       "exDockTough": {
         "name": "Ex-Dock Tough",
         "description": "Though you were raised as a member of one of Mimph's various criminal gangs, you never fit in with the rest of your settled, metropolitan brethren. The Harpers in particular recognized your wanderlust and potential as an agent. Over the years, you fell out of favor with the dockland gangs, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you. ",
-        "backgrounds": [
-          "Charlatan",
-          "Criminal",
-          "Entertainer",
-          "Folk Hero",
-          "Gladiator",
-          "Mercenary Veteran",
-          "Pirate",
-          "Sailor",
-          "Soldier",
-          "Urchin"
-        ]
+        "backgrounds": {
+          "charlatan": { "name": "Charlatan", "description": "" },
+          "criminal": { "name": "Criminal", "description": "" },
+          "entertainer": { "name": "Entertainer", "description": "" },
+          "folkHero": { "name": "Folk Hero", "description": "" },
+          "gladiator": { "name": "Gladiator", "description": "" },
+          "mercenaryVeteran": {
+            "name": "Mercenary Veteran",
+            "description": ""
+          },
+          "pirate": { "name": "Pirate", "description": "" },
+          "sailor": { "name": "Sailor", "description": "" },
+          "soldier": { "name": "Soldier", "description": "" },
+          "urchin": { "name": "Urchin", "description": "" }
+        }
       },
       "exchangeAgent": {
         "name": "Exchange Agent",
         "description": "Although you're a relative newcomer to Sespech, you're not some naive stranger. You've been sent by the Harper network of the Dales to learn more about the Vilhon Reach by experiencing the frontier firsthand. After arriving, you reported to Mimph and placed your expertise at Sendra's disposal.",
-        "backgrounds": [
-          "Acolyte",
-          "Anthropologist",
-          "Archaeologist",
-          "Courtier",
-          "Entertainer",
-          "Faction Agent",
-          "Investigator",
-          "Knight of the Order",
-          "Sailor",
-          "Spy"
-        ]
+        "backgrounds": {
+          "acolyte": { "name": "Acolyte", "description": "" },
+          "anthropologist": { "name": "Anthropologist", "description": "" },
+          "archaeologist": { "name": "Archaeologist", "description": "" },
+          "courtier": { "name": "Courtier", "description": "" },
+          "entertainer": { "name": "Entertainer", "description": "" },
+          "factionAgent": { "name": "Faction Agent", "description": "" },
+          "investigator": { "name": "Investigator", "description": "" },
+          "knightOfTheOrder": {
+            "name": "Knight of the Order",
+            "description": ""
+          },
+          "sailor": { "name": "Sailor", "description": "" },
+          "spy": { "name": "Spy", "description": "" }
+        }
       },
       "monumentScholar": {
         "name": "Monument Scholar",
         "description": "As a child in Mimph, the city's ancient architecture inspired you with wonder. Your fascination with these relics has only grown in the years since: and, though you know little about the actual lore of the millennia-old monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks. Through these studies, you've encountered the research of Harrovyr/Martish several times... and they, apparently, have heard of you.",
-        "backgrounds": [
-          "Anthropologist",
-          "Archaeologist",
-          "City Watch",
-          "Cloistered Scholar",
-          "Guild Artisan",
-          "Hermit",
-          "Inheritor",
-          "Noble",
-          "Sage",
-          "Urchin"
-        ]
+        "backgrounds": {
+          "anthropologist": { "name": "Anthropologist", "description": "" },
+          "archaeologist": { "name": "Archaeologist", "description": "" },
+          "cityWatch": { "name": "City Watch", "description": "" },
+          "cloisteredScholar": {
+            "name": "Cloistered Scholar",
+            "description": ""
+          },
+          "guildArtisan": { "name": "Guild Artisan", "description": "" },
+          "hermit": { "name": "Hermit", "description": "" },
+          "inheritor": { "name": "Inheritor", "description": "" },
+          "noble": { "name": "Noble", "description": "" },
+          "sage": { "name": "Sage", "description": "" },
+          "urchin": { "name": "Urchin", "description": "" }
+        }
       },
       "regionalWanderer": {
         "name": "Regional Wanderer",
         "description": "You are a member of the Turami or Shaaran ethnicity; you left your homeland to learn more about the mysteries of the wider world. Your travels have recently brought you to the Mimph, and the attentions of a local scholar.",
-        "backgrounds": [
-          "Acolyte",
-          "Entertainer",
-          "Far Traveler",
-          "Folk Hero",
-          "Gladiator",
-          "Guild Merchant",
-          "Inheritor",
-          "Knight",
-          "Mercenary Veteran",
-          "Outlander"
-        ]
+        "backgrounds": {
+          "acolyte": { "name": "Acolyte", "description": "" },
+          "entertainer": { "name": "Entertainer", "description": "" },
+          "farTraveler": { "name": "Far Traveler", "description": "" },
+          "folkHero": { "name": "Folk Hero", "description": "" },
+          "gladiator": { "name": "Gladiator", "description": "" },
+          "guildMerchant": { "name": "Guild Merchant", "description": "" },
+          "inheritor": { "name": "Inheritor", "description": "" },
+          "knight": { "name": "Knight", "description": "" },
+          "mercenaryVeteran": {
+            "name": "Mercenary Veteran",
+            "description": ""
+          },
+          "outlander": { "name": "Outlander", "description": "" }
+        }
       },
       "ruinRaider": {
         "name": "Ruin Raider",
         "description": "While the mercantile networks of the Vilhon Reach appeal to your keen eye for monetary gain, you know that the boldest route to true fortune lies in hunting down rare relics and selling them to the highest bidder. Working for the Harpers seemed like an obvious decision, paying for you to travel throughout the region in your search for wealth, so you signed up right away. You brought with you a sharp eye and keen ability to distinguish fakes from the genuine article.",
-        "backgrounds": [
-          "Anthropologist",
-          "Archaeologist",
-          "Charlatan",
-          "Criminal",
-          "Guild Artisan",
-          "Guild Merchant",
-          "Hermit",
-          "Inheritor",
-          "Investigator",
-          "Urban Bounty Hunter"
-        ]
+        "backgrounds": {
+          "anthropologist": { "name": "Anthropologist", "description": "" },
+          "archaeologist": { "name": "Archaeologist", "description": "" },
+          "charlatan": { "name": "Charlatan", "description": "" },
+          "criminal": { "name": "Criminal", "description": "" },
+          "guildArtisan": { "name": "Guild Artisan", "description": "" },
+          "guildMerchant": { "name": "Guild Merchant", "description": "" },
+          "hermit": { "name": "Hermit", "description": "" },
+          "inheritor": { "name": "Inheritor", "description": "" },
+          "investigator": { "name": "Investigator", "description": "" },
+          "urbanBountyHunter": {
+            "name": "Urban Bounty Hunter",
+            "description": ""
+          }
+        }
       }
     },
     "npcConnections": {
       "harrovyr": {
         "name": "Lady Sendra Harrovyr",
-        "description": "human fighter, morningstar and quarterstaff - scholar of tactics, historian of battles - originally from Cormyr - clandestine Harper, reluctant schemer",
-        "image": ""
+        "description": "human fighter, morningstar and quarterstaff - scholar of tactics, historian of battles - originally from Cormyr - clandestine Harper, reluctant schemer"
       },
       "martish": {
         "name": "Sir Curonar Martish",
-        "description": "expatriate Turami noble - acclaimed scholar of the Vilhon Reach - socially refined, public face of Martish House - spouse of Sendra Harrovyr",
-        "image": ""
+        "description": "expatriate Turami noble - acclaimed scholar of the Vilhon Reach - socially refined, public face of Martish House - spouse of Sendra Harrovyr"
       },
       "tauno": {
         "name": "Admiral Kalisa Tauno",
-        "description": "Lord-Mayor of Mimph - first Sespech high official not from the Baron's old adventuring band - friendly but tired, constantly harried by matters of the governance - current focus is building fleet to counter Arrabar piracy",
-        "image": ""
+        "description": "Lord-Mayor of Mimph - first Sespech high official not from the Baron's old adventuring band - friendly but tired, constantly harried by matters of the governance - current focus is building fleet to counter Arrabar piracy"
       },
       "ferrentio": {
         "name": "Watcher (Marasa) Ferrentio",
-        "description": "high priestess at temple of Helm (largest in city) - young, powerful force within the entire church hierarchy - temple works with city guard to ensure no region is unpatrolled - also sponsors itinerant Helmite clerics and paladins across the Reach",
-        "image": ""
+        "description": "high priestess at temple of Helm (largest in city) - young, powerful force within the entire church hierarchy - temple works with city guard to ensure no region is unpatrolled - also sponsors itinerant Helmite clerics and paladins across the Reach"
       },
       "nivlandil": {
         "name": "Leïs Nívlandil",
-        "description": "headmaster of Stone of the Seers (small/only school of magic in city) - focus on abjuration and divination magics - air of elitism ascribed to students and faculty - small size actually stems from reticence: knows how mistrusted wizards (and elves) are in the Reach, and wants to tread lightly",
-        "image": ""
+        "description": "headmaster of Stone of the Seers (small/only school of magic in city) - focus on abjuration and divination magics - air of elitism ascribed to students and faculty - small size actually stems from reticence: knows how mistrusted wizards (and elves) are in the Reach, and wants to tread lightly"
       },
       "kalmeralm": {
         "name": "Sabriyya Kalmeralm",
-        "description": "owner of the Bazaar of Sails - keeps the peace between squabbling traders, maintains fair prices, limits racketeering - quick wit, aristocratic bearing, fiery temper, and unforgiving memory - daughter of the first Prince of the Market (who disappeared ~30 years ago)",
-        "image": ""
+        "description": "owner of the Bazaar of Sails - keeps the peace between squabbling traders, maintains fair prices, limits racketeering - quick wit, aristocratic bearing, fiery temper, and unforgiving memory - daughter of the first Prince of the Market (who disappeared ~30 years ago)"
       },
       "raakes": {
         "name": "Ma'am Raakës",
-        "description": "half-elven owner of the Coral Reef (largest festhall in town) - four-storey, flamboyant seaside manor-house - beneath passionate facade, a cold-eyed power-broker among the merchants and nobility",
-        "image": ""
+        "description": "half-elven owner of the Coral Reef (largest festhall in town) - four-storey, flamboyant seaside manor-house - beneath passionate facade, a cold-eyed power-broker among the merchants and nobility... and, possibly, less-savory elements"
       },
       "droaeb": {
         "name": "Jorsten Draeb",
-        "description": "dwarven Master of Games at the Serpent's Run (city hippodrome) - prefers to host decathlons, horse and dog races, displays of magic, circus performances, and (on rare occasions) mock-gladiatorial battles - despite frequent requests, never books what he classifies 'bloodsport'",
-        "image": ""
+        "description": "dwarven Master of Games at the Serpent's Run (city hippodrome) - prefers to host decathlons, horse and dog races, displays of magic, circus performances, and (on rare occasions) mock-gladiatorial battles - despite frequent requests, never books what he classifies 'bloodsport'"
       }
     },
     "backgrounds": {}
