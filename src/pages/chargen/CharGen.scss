@@ -1,0 +1,16 @@
+.chargen {
+  background-color: #F1F7F8;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 40px;
+
+  &__content{
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  &__heading{
+    margin-top: 0;
+    padding-top: 40px;
+  }
+}

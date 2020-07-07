@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import AttrCard from "./AttrCard";
 import { randomValFrom } from "../../utils";
+import './CharGen.scss'
 import data from "./ssvrPcData.json";
 
 class CharGen extends Component {
@@ -61,49 +62,53 @@ class CharGen extends Component {
   render() {
     const { currentChar } = this.state;
     return (
-      <div className="char-gen">
-        <h1>Vilhon Reach PC Generator</h1>
-        <button onClick={this.genNewChar}>New PC!</button>
-        <main>
+      <div className="chargen">
+        <main className="chargen__content">
+        <h1 className="chargen__heading">Vilhon Reach PC Generator</h1>
+        <button onClick={this.genNewChar}>Randomize PC!</button>
           {currentChar && (
             <>
-              <h2>New character:</h2>
-
-              <h3>Race and Class:</h3>
+              <h2>Race and Class:</h2>
               <AttrCard
                 attr={currentChar.pcRace}
+                headTitle="Race"
                 togglePin={this.togglePin}
                 pinKeys={["pcRace"]}
                 unPinKeys={["pcRace"]}
               />
               <AttrCard
                 attr={currentChar.pcClass}
+                headTitle="Class"
                 togglePin={this.togglePin}
                 pinKeys={["pcClass"]}
                 unPinKeys={["pcClass", "pcArchetype"]}
               />
               <AttrCard
                 attr={currentChar.pcArchetype}
+                headTitle="Archetype"
                 togglePin={this.togglePin}
                 pinKeys={["pcClass", "pcArchetype"]}
-                unPinKeys={["pcArchetype"]}
+                unPinKeys={["pcClass", "pcArchetype"]}
               />
 
-              <h3>Background and Campaign Hook:</h3>
+              <h2>Background and Campaign Hook:</h2>
               <AttrCard
                 attr={currentChar.pcHook}
+                headTitle="Campaign Hook"
                 togglePin={this.togglePin}
                 pinKeys={["pcHook"]}
                 unPinKeys={["pcBackground", "pcHook"]}
               />
               <AttrCard
                 attr={currentChar.pcBackground}
+                headTitle="Background"
                 togglePin={this.togglePin}
                 pinKeys={["pcBackground", "pcHook"]}
-                unPinKeys={["pcBackground"]}
+                unPinKeys={["pcBackground", "pcHook"]}
               />
               <AttrCard
                 attr={currentChar.pcNpc}
+                headTitle="NPC Connection"
                 togglePin={this.togglePin}
                 pinKeys={["pcNpc"]}
                 unPinKeys={["pcNpc"]}

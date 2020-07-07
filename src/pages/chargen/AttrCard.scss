@@ -1,0 +1,25 @@
+.attrcard{
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: #FCF0EE;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+  
+  &--pinned {
+    box-shadow: inset 0px 0px 12px 0px rgba(0,0,0,0.75);
+    // background-color: salmon;
+  }
+  
+  &--dependent {
+    margin-left: 40px;
+  }
+
+  &__name, &__description {
+    cursor: default;
+  }
+
+  &__description {
+    letter-spacing: .25px;
+  }
+}

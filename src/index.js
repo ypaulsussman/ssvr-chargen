@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import App from "./pages/demo/App";
 import CharGen from "./pages/chargen/CharGen";
-import "./index.css";
+import "./index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +11,7 @@ ReactDOM.render(
       <Route exact path="/demo">
         <App />
       </Route>
-      <Route path="/">
+      <Route exact path="/">
         <CharGen />
       </Route>
     </Router>
