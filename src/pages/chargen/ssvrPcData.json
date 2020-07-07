@@ -229,81 +229,180 @@
         "name": "Alabaster Outcast",
         "description": "You are a member of one of Arrabar's wealthier families... or rather, you used to be. A falling-out left you disowned and disinherited. You now hope find fortune and reknown enough to shame your former kinsfolk — goals which led you to the Harpers. Despite your exile, your family name still carries considerable weight in the region.",
         "backgrounds": {
-          "acolyte": { "name": "Acolyte", "description": "You have spent your life in the service of a temple. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine." },
-          "charlatan": { "name": "Charlatan", "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage." },
+          "acolyte": {
+            "name": "Acolyte",
+            "description": "You have spent your life in the service of a temple. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine."
+          },
+          "charlatan": {
+            "name": "Charlatan",
+            "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage."
+          },
           "cloisteredScholar": {
             "name": "Cloistered Scholar",
             "description": "As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to an institute of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home: not to abandon it, but to quest for new lore to add to its storehouse of knowledge."
           },
-          "courtier": { "name": "Courtier", "description": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position." },
-          "inheritor": { "name": "Inheritor", "description": "You are the heir to something of great value — not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. The revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you — by force, if need be." },
-          "noble": { "name": "Noble", "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them." }
+          "courtier": {
+            "name": "Courtier",
+            "description": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position."
+          },
+          "inheritor": {
+            "name": "Inheritor",
+            "description": "You are the heir to something of great value — not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. The revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you — by force, if need be."
+          },
+          "noble": {
+            "name": "Noble",
+            "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them."
+          }
         }
       },
       "exDockTough": {
         "name": "Ex-Dock Tough",
         "description": "Though you were raised as a member of one of Mimph's various criminal gangs, you never fit in with the rest of your settled, metropolitan brethren. The Harpers in particular recognized your wanderlust and potential as an agent. Over the years, you fell out of favor with the dockland gangs, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you. ",
         "backgrounds": {
-          "criminal": { "name": "Criminal", "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society." },
-          "folkHero": { "name": "Folk Hero", "description": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere." },
-          "gladiator": { "name": "Gladiator", "description": "A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor." },
-          "fisher": { "name": "Fisher", "description": "You have spent your life aboard fishing vessels or combing the shallows for the bounty of the ocean. Perhaps you were born into a family of fisher folk, working with your kin to feed your village. Maybe the job was a means to an end — a way out of an undesirable circumstance that forced you to take up life aboard a ship. Regardless of how you began, you soon fell in love with the sea, the art of fishing, and the promise of the eternal horizon." },
-          "sailor": { "name": "Sailor", "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new." },
-          "urchin": { "name": "Urchin", "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each." }
+          "criminal": {
+            "name": "Criminal",
+            "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
+          },
+          "folkHero": {
+            "name": "Folk Hero",
+            "description": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere."
+          },
+          "gladiator": {
+            "name": "Gladiator",
+            "description": "A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor."
+          },
+          "fisher": {
+            "name": "Fisher",
+            "description": "You have spent your life aboard fishing vessels or combing the shallows for the bounty of the ocean. Perhaps you were born into a family of fisher folk, working with your kin to feed your village. Maybe the job was a means to an end — a way out of an undesirable circumstance that forced you to take up life aboard a ship. Regardless of how you began, you soon fell in love with the sea, the art of fishing, and the promise of the eternal horizon."
+          },
+          "sailor": {
+            "name": "Sailor",
+            "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new."
+          },
+          "urchin": {
+            "name": "Urchin",
+            "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each."
+          }
         }
       },
       "exchangeAgent": {
         "name": "Exchange Agent",
         "description": "Although you're a relative newcomer to Sespech, you're not some naive stranger. You've been sent by the Harper network of the Heartlands to learn more about the Vilhon Reach, by experiencing the southern coast firsthand. After arriving, you reported to Mimph and placed your expertise at Sendra's disposal.",
         "backgrounds": {
-          "anthropologist": { "name": "Anthropologist", "description": "You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures’ customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. This knowledge came to you not only through books and scrolls, but also through first-hand observation—by visiting far-flung settlements and exploring local histories and customs." },
-          "courtier": { "name": "Courtier", "description": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position." },
-          "entertainer": { "name": "Entertainer", "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life." },
-          "sailor": { "name": "Sailor", "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new." },
-          "smuggler": { "name": "Smuggler", "description": "On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master’s oblivious lackeys. You have paddled a riverboat filled with stolen elven wine under the gaze of the moon and sold it for twice its value in the morning. In your more charitable times, you have transported innocents out of war zones or helped guide herd animals to safety on the banks of a burning river."},
-          "spy": { "name": "Spy", "description": "Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder." }
+          "anthropologist": {
+            "name": "Anthropologist",
+            "description": "You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures’ customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. This knowledge came to you not only through books and scrolls, but also through first-hand observation—by visiting far-flung settlements and exploring local histories and customs."
+          },
+          "courtier": {
+            "name": "Courtier",
+            "description": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position."
+          },
+          "entertainer": {
+            "name": "Entertainer",
+            "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life."
+          },
+          "sailor": {
+            "name": "Sailor",
+            "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new."
+          },
+          "smuggler": {
+            "name": "Smuggler",
+            "description": "On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master’s oblivious lackeys. You have paddled a riverboat filled with stolen elven wine under the gaze of the moon and sold it for twice its value in the morning. In your more charitable times, you have transported innocents out of war zones or helped guide herd animals to safety on the banks of a burning river."
+          },
+          "spy": {
+            "name": "Spy",
+            "description": "Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder."
+          }
         }
       },
       "monumentScholar": {
         "name": "Monument Scholar",
         "description": "As a child in Mimph, the city's ancient architecture inspired you with wonder. Your fascination with these relics has only grown in the years since: and, though you know little about the actual lore of the millennia-old monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks. Through these studies, you've encountered the research of Harrovyr/Martish several times... and they, apparently, have learned of you.",
         "backgrounds": {
-          "archaeologist": { "name": "Archaeologist", "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms." },
+          "archaeologist": {
+            "name": "Archaeologist",
+            "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms."
+          },
           "cloisteredScholar": {
             "name": "Cloistered Scholar",
             "description": "As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to an institute of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home: not to abandon it, but to quest for new lore to add to its storehouse of knowledge."
           },
-          "guildArtisan": { "name": "Guild Artisan", "description": "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right." },
-          "hermit": { "name": "Hermit", "description": "You lived in seclusion — either in a sheltered community such as a monastery, or entirely alone — for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for." },
-          "noble": { "name": "Noble", "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them." },
-          "sage": { "name": "Sage", "description": "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study." }
+          "guildArtisan": {
+            "name": "Guild Artisan",
+            "description": "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right."
+          },
+          "hermit": {
+            "name": "Hermit",
+            "description": "You lived in seclusion — either in a sheltered community such as a monastery, or entirely alone — for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for."
+          },
+          "noble": {
+            "name": "Noble",
+            "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them."
+          },
+          "sage": {
+            "name": "Sage",
+            "description": "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study."
+          }
         }
       },
       "regionalWanderer": {
         "name": "Regional Wanderer",
         "description": "You are a member of the Turami or Shaaran ethnicity; you left your homeland to learn more about the mysteries of the wider world. Your travels have recently brought you to the Mimph, and the attentions of a local scholar.",
         "backgrounds": {
-          "entertainer": { "name": "Entertainer", "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life." },
-          "gladiator": { "name": "Gladiator", "description": "A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor." },
-          "guildMerchant": { "name": "Guild Merchant", "description": "You belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop." },
-          "inheritor": { "name": "Inheritor", "description": "You are the heir to something of great value — not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. The revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you — by force, if need be." },
+          "entertainer": {
+            "name": "Entertainer",
+            "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life."
+          },
+          "gladiator": {
+            "name": "Gladiator",
+            "description": "A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor."
+          },
+          "guildMerchant": {
+            "name": "Guild Merchant",
+            "description": "You belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop."
+          },
+          "inheritor": {
+            "name": "Inheritor",
+            "description": "You are the heir to something of great value — not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. The revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you — by force, if need be."
+          },
           "mercenaryVeteran": {
             "name": "Mercenary Veteran",
             "description": "As a sell-sword who fought battles for coin, you’re well acquainted with risking life and limb for a chance at a share of treasure. Now, you look forward to fighting foes and reaping even greater rewards as an adventurer. Your experience makes you familiar with the ins and outs of mercenary life, and you likely have harrowing stories of events on the battlefield."
           },
-          "outlander": { "name": "Outlander", "description": "You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild." }
+          "outlander": {
+            "name": "Outlander",
+            "description": "You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild."
+          }
         }
       },
       "ruinRaider": {
         "name": "Ruin Raider",
         "description": "While the mercantile networks of the Vilhon Reach appeal to your keen eye for monetary gain, you know that the boldest route to true fortune lies in hunting down rare relics and selling them to the highest bidder. Working for the Harpers seemed like an obvious decision, paying for you to travel throughout the region in your search for wealth, so you signed up right away. You brought with you a sharp eye and keen ability to distinguish fakes from the genuine article.",
         "backgrounds": {
-          "archaeologist": { "name": "Archaeologist", "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms." },
-          "charlatan": { "name": "Charlatan", "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage." },
-          "criminal": { "name": "Criminal", "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society." },
-          "guildArtisan": { "name": "Guild Artisan", "description": "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right." },
-          "guildMerchant": { "name": "Guild Merchant", "description": "You belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop." },
-          "urchin": { "name": "Urchin", "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each." }
+          "archaeologist": {
+            "name": "Archaeologist",
+            "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms."
+          },
+          "charlatan": {
+            "name": "Charlatan",
+            "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage."
+          },
+          "criminal": {
+            "name": "Criminal",
+            "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
+          },
+          "guildArtisan": {
+            "name": "Guild Artisan",
+            "description": "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right."
+          },
+          "guildMerchant": {
+            "name": "Guild Merchant",
+            "description": "You belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop."
+          },
+          "urchin": {
+            "name": "Urchin",
+            "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each."
+          }
         }
       }
     },
