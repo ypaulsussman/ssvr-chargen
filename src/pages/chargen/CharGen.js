@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import AttrCard from "./AttrCard";
+import AttrCard from "./AttrCard/AttrCard";
 import { randomValFrom } from "../../utils";
 import './CharGen.scss'
-import data from "./ssvrPcData.json";
+import charGenData from "./CharGenData.json";
 
 class CharGen extends Component {
   constructor() {
     super();
-    this.state = { ...data };
+    this.state = { ...charGenData };
   }
 
   genNewChar = () => {

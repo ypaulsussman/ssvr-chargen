@@ -1,43 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React-Test-Library Intro
 
-## Available Scripts
+- References:
+  - https://testing-library.com/docs/dom-testing-library/api-queries
+  - https://testing-library.com/docs/react-testing-library/api
+  - https://react-testing-examples.com/jest-rtl/
+  - https://www.robinwieruch.de/react-testing-library
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Queries
+  - `screen.debug();` doesn't pause the thread; it simply logs the output of any earlier `render`
+  - Three variants: 
+    - `getBy*` throws an error if nothing's found
+    - `queryBy*` returns `null` if nothing's found (so you can `expect` it `toBeNull` with Jest)
+    - `findBy*` combines `getBy` with the `waitFor` [Async Utility](https://testing-library.com/docs/dom-testing-library/api-async), defaulting to 1000ms
+  - Each of the above can return an array of DOM nodes, instead, via `getAllBy`, `queryAllBy`, `findAllBy`
+  - query options:
+    - `*ByLabelText` will grab the node of _the element associated with_ the... 
+      - `<label>` that has that string as a child
+      - element that has a matching `aria-labelledby` or `aria-label` attr
+    - `*ByPlaceholderText` will grab the node whose `placeholder` element matches the string
+    - 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
+## Todo: Learn More re: CRA Down the Road
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
