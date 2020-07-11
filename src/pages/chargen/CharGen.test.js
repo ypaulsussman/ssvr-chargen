@@ -19,7 +19,7 @@ describe("chargen page", () => {
   afterEach(() => {
     cleanup();
   });
-
+  
   test("renders new-random-pc button", () => {
     const randomizer = screen.getByText("Randomize PC!");
     expect(randomizer).toBeInTheDocument();

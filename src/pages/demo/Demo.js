@@ -1,17 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './Demo.css';
 
-function App() {
+function Demo() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="Demo">
+      <header className="Demo-header">
+        <img src={logo} className="Demo-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/Demo.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className="Demo-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Demo;
