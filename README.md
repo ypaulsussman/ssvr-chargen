@@ -1,3 +1,32 @@
+# SSVR Character Generator
+
+## Debugging
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch ff localhost",
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "log": {
+        "fileName": "${workspaceFolder}/log.txt",
+        "fileLevel": {
+          "default": "Debug"
+        }
+      }
+    }
+  ]
+}
+```
+
+NB: run `npm start` and only _then_ run the debugger
+
+
 ## Todo: Learn More re: CRA Down the Road
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

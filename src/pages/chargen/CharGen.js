@@ -108,7 +108,7 @@ class CharGen extends Component {
               />
               <AttrCard
                 attr={currentChar.pcNpc}
-                headTitle="NPC Connection"
+                headTitle="NPC Contact"
                 togglePin={this.togglePin}
                 pinKeys={["pcNpc"]}
                 unPinKeys={["pcNpc"]}
