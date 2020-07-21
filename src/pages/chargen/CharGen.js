@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import AttrCard from "./AttrCard/AttrCard";
-import { randomValFrom } from "../../utils";
+import AttrCard from "./AttrCard/AttrCard.js";
+import { randomValFrom } from "../../utils.js";
 import './CharGen.scss'
 import charGenData from "./CharGenData.json";
 
