@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AttrCard from "./AttrCard/AttrCard";
+import AttrCard from "./attrCard/AttrCard";
 import { randomValFrom } from "../../utils";
 import './CharGen.scss'
 import charGenData from "./CharGenData.json";

@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Demo from "../pages/demo/Demo";
-import CharGen from "../pages/CharGen/CharGen";
+import CharGen from "../pages/charGen/CharGen";
 import "./App.scss";
 
 const App = () => {
