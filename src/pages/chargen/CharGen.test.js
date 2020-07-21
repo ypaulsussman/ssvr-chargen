@@ -9,7 +9,7 @@ describe("chargen page", () => {
     /^Archetype:/,
     /^Campaign Hook:/,
     /^Background:/,
-    /^NPC Connection:/,
+    /^NPC Contact:/,
   ];
 
   beforeEach(() => {
@@ -19,13 +19,13 @@ describe("chargen page", () => {
   afterEach(() => {
     cleanup();
   });
-  
+
   test("renders new-random-pc button", () => {
     const randomizer = screen.getByText("Randomize PC!");
     expect(randomizer).toBeInTheDocument();
   });
 
-  describe("on first clicking new-random-pc button", () => {
+  describe("a first clicking new-random-pc button", () => {
     test("generates six new AttrCards ", () => {
       expect(screen.getAllByRole("button").length).toBe(1);
       fireEvent.click(screen.getByText("Randomize PC!"));
@@ -43,7 +43,7 @@ describe("chargen page", () => {
     });
   });
 
-  describe("on a second+ click of new-random-pc button", () => {
+  describe("a second+ click of new-random-pc button", () => {
     test("alters at least one PC-attribute value", () => {
       fireEvent.click(screen.getByText("Randomize PC!"));
 
@@ -63,11 +63,106 @@ describe("chargen page", () => {
     });
   });
 
-  // test('pinning works', () => {})
+  describe("independent attrs", () => {
+    test("can be pinned and unpinned", () => {
+      fireEvent.click(screen.getByText("Randomize PC!"));
+      const charClassButton = screen.getByText(/^Class:/);
+      const firstCharClassText = charClassButton.textContent;
 
-  // test('pinning a descendent attr works', () => {})
+      // pin it
+      fireEvent.click(charClassButton);
+      let unchanged = true;
 
-  // test('unpinning works', () => {}) 
+      // simulate clicking button 5 times
+      for (let i = 0; i < 5; i++) {
+        fireEvent.click(screen.getByText("Randomize PC!"));
+        const newCharClassText = screen.getByText(/^Class:/).textContent;
+        if (firstCharClassText !== newCharClassText) {
+          unchanged = false;
+        }
+      }
+      expect(unchanged).toBe(true);
 
-  // test('unpinning a descendent attr works', () => {}) 
+      // unpin it
+      fireEvent.click(charClassButton);
+
+      // simulate clicking button 5 times
+      for (let i = 0; i < 5; i++) {
+        fireEvent.click(screen.getByText("Randomize PC!"));
+        const newCharClassText = screen.getByText(/^Class:/).textContent;
+        if (firstCharClassText !== newCharClassText) {
+          unchanged = false;
+        }
+      }
+      expect(unchanged).toBe(false);
+    });
+  });
+
+  describe('descendent attrs', () => {
+    test("can be pinned and unpinned", () => {
+      fireEvent.click(screen.getByText("Randomize PC!"));
+      const archetypeButton = screen.getByText(/^Archetype:/);
+      const firstArchetypeText = archetypeButton.textContent;
+
+      // pin it
+      fireEvent.click(archetypeButton);
+      let unchanged = true;
+
+      // simulate clicking button 5 times
+      for (let i = 0; i < 5; i++) {
+        fireEvent.click(screen.getByText("Randomize PC!"));
+        const newArchetypeText = screen.getByText(/^Archetype:/).textContent;
+        if (firstArchetypeText !== newArchetypeText) {
+          unchanged = false;
+        }
+      }
+      expect(unchanged).toBe(true);
+
+      // unpin it
+      fireEvent.click(archetypeButton);
+
+      // simulate clicking button 5 times
+      for (let i = 0; i < 5; i++) {
+        fireEvent.click(screen.getByText("Randomize PC!"));
+        const newArchetypeText = screen.getByText(/^Archetype:/).textContent;
+        if (firstArchetypeText !== newArchetypeText) {
+          unchanged = false;
+        }
+      }
+      expect(unchanged).toBe(false);
+    });
+
+    test('also pin and unpin their parent attr', () => {
+      fireEvent.click(screen.getByText("Randomize PC!"));
+      const archetypeButton = screen.getByText(/^Archetype:/);
+      const firstCharClassText = screen.getByText(/^Class:/).textContent;
+
+      // pin it
+      fireEvent.click(archetypeButton);
+      let unchanged = true;
+
+      // simulate clicking button 5 times
+      for (let i = 0; i < 5; i++) {
+        fireEvent.click(screen.getByText("Randomize PC!"));
+        const newCharClassText = screen.getByText(/^Class:/).textContent;
+        if (firstCharClassText !== newCharClassText) {
+          unchanged = false;
+        }
+      }
+      expect(unchanged).toBe(true);
+
+      // unpin it
+      fireEvent.click(archetypeButton);
+
+      // simulate clicking button 5 times
+      for (let i = 0; i < 5; i++) {
+        fireEvent.click(screen.getByText("Randomize PC!"));
+        const newCharClassText = screen.getByText(/^Class:/).textContent;
+        if (firstCharClassText !== newCharClassText) {
+          unchanged = false;
+        }
+      }
+      expect(unchanged).toBe(false);
+    })
+  })
 });
