@@ -19,7 +19,9 @@ const AttrCard = ({ attr, headTitle, togglePin, pinKeys, unPinKeys }) => {
       <h3 onClick={toggle} className="attrcard__name">
         {headTitle}: {attr.name}
       </h3>
-      <p onClick={toggle} className="attrcard__description">{attr.description}</p>
+      <p onClick={toggle} className="attrcard__description">
+        {attr.description}
+      </p>
     </button>
   );
 };

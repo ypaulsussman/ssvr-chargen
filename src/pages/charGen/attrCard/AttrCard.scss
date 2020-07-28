@@ -1,25 +1,26 @@
-.attrcard{
+.attrcard {
   padding: 10px 40px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 6px;
-  background-color: #FCF0EE;
-  box-shadow: 6px 6px 18px 2px rgba(0,0,0,0.75);
+  background-color: #fcf0ee;
+  box-shadow: 6px 6px 18px 2px rgba(0, 0, 0, 0.75);
   text-align: left;
   &--pinned {
-  box-shadow: inset 0px 0px 18px 4px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 18px 4px rgba(0, 0, 0, 0.75);
   }
-  
+
   &--dependent {
     margin-left: 60px;
   }
 
-  &__name, &__description {
+  &__name,
+  &__description {
     cursor: default;
-    white-space: pre-line
+    white-space: pre-line;
   }
 
   &__description {
-    letter-spacing: .25px;
+    letter-spacing: 0.25px;
   }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AttrCard from "./attrCard/AttrCard";
 import { randomValFrom } from "../../utils";
-import './CharGen.scss'
+import "./CharGen.scss";
 import charGenData from "./CharGenData.json";
 
 class CharGen extends Component {
@@ -64,8 +64,8 @@ class CharGen extends Component {
     return (
       <div className="chargen">
         <main className="chargen__content">
-        <h1 className="chargen__heading">Vilhon Reach PC Generator</h1>
-        <button onClick={this.genNewChar}>Randomize PC!</button>
+          <h1 className="chargen__heading">Vilhon Reach PC Generator</h1>
+          <button onClick={this.genNewChar}>Randomize PC!</button>
           {currentChar && (
             <>
               <h2>Race and Class:</h2>

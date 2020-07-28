@@ -7,6 +7,7 @@ import App  from './App'
 describe('basic app routing', () => {
   test('renders chargen page on root url', () => {
     const history = createMemoryHistory()
+    history.push('/chargen')
     render(
       <Router history={history}>
         <App />
@@ -16,15 +17,14 @@ describe('basic app routing', () => {
     expect(screen.getByText("Vilhon Reach PC Generator")).toBeInTheDocument();
   })
   
-  test('renders demo page on demo url', () => {
+  test('renders lander on home url', () => {
     const history = createMemoryHistory()
-    history.push('/demo')
     render(
       <Router history={history}>
         <App />
       </Router>
     )
   
-    expect(screen.getByText("Learn React")).toBeInTheDocument();
+    expect(screen.getByText("sup")).toBeInTheDocument();
   })
 })

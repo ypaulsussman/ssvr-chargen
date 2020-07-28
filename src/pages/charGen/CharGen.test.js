@@ -98,7 +98,7 @@ describe("chargen page", () => {
     });
   });
 
-  describe('descendent attrs', () => {
+  describe("descendent attrs", () => {
     test("can be pinned and unpinned", () => {
       fireEvent.click(screen.getByText("Randomize PC!"));
       const archetypeButton = screen.getByText(/^Archetype:/);
@@ -132,7 +132,7 @@ describe("chargen page", () => {
       expect(unchanged).toBe(false);
     });
 
-    test('also pin and unpin their parent attr', () => {
+    test("also pin and unpin their parent attr", () => {
       fireEvent.click(screen.getByText("Randomize PC!"));
       const archetypeButton = screen.getByText(/^Archetype:/);
       const firstCharClassText = screen.getByText(/^Class:/).textContent;
@@ -163,6 +163,6 @@ describe("chargen page", () => {
         }
       }
       expect(unchanged).toBe(false);
-    })
-  })
+    });
+  });
 });
