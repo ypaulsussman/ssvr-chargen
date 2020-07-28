@@ -1,15 +1,14 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { LOGIN_TOKEN } from "./constants";
 import Login from "./pages/login/Login";
 import Lander from "./pages/lander/Lander";
 import CharGen from "./pages/charGen/CharGen";
 import "./App.scss";
 
-const App = () => {
-  const loggedIn = window.localStorage.getItem("nerdToken") === LOGIN_TOKEN;
+const App = (props) => {
+  const {isTokenValid} = props;
 
-  return loggedIn ? (
+  return isTokenValid() ? (
     <Switch>
       <Route exact path="/">
         <Lander />
