@@ -1,10 +1,11 @@
 import React from "react";
-// react router link for chargen / mapquiz
+import { Link } from "react-router-dom";
+import './Lander.scss'
 // add header component
 
 const Lander = () => {
   return (
-    <main>
+    <main className="lander__content">
       <h1>Welcome to the Campaign (setup)!</h1>
 
       <section>
@@ -26,11 +27,15 @@ const Lander = () => {
         </p>
       </section>
       <section>
-        <h2>Backgrounder Map and Quiz</h2>
+        <Link to="/mapquiz">
+          <h2>Backgrounder Map and Quiz</h2>
+        </Link>
         <p>more text here -- why you created it, and what we'll use it for</p>
       </section>
       <section>
-        <h2>Random-PC Generator</h2>
+        <Link to="/chargen">
+          <h2>Random-PC Generator</h2>
+        </Link>
         <p>more text here -- why you created it, and what we'll use it for</p>
       </section>
     </main>

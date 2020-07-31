@@ -1,0 +1,24 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+
+area {
+  cursor: pointer;
+}
+
+.mapquiz {
+  margin: 0 auto;
+
+  max-width: 1200px;
+}
+.map-and-legend {
+  display: flex;
+  justify-content: center;
+}
+
+.legend__wrapper {
+  margin-left: 40px;
+  width: 31%;
+  white-space: pre-line;
+}

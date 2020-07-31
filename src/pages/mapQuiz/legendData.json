@@ -1,0 +1,69 @@
+{
+  "legend": [
+    {
+      "name": "The Vilhon Reach",
+      "coordinates": "288,372,302,422,401,396,576,246,536,198",
+      "description": "This fertile, subtropical land is divided up into quarreling city-states and petty nations. For all its unrest, the Vilhon remains vital to the whole of Faerûn: it forms the trade link between the Lake of Steam, the plains of the Shaar, and all the rest of the continent through its ports on the Sea of Fallen Stars.\n\nMost sages recognize the Vilhon Reach as the cradle from which waves of humans spread forth to conquer and inhabit Faerûn. Something of this adventuresome spirit is still present in the Reach; many of the locals leave their homeland to seek their fortunes as merchants, sailors, or soldiers.\n\nEthnic Chondathans are generally tawny-skinned folk with brown hair ranging from almost blond to almost black, and green or brown eyes.\n\nSpellcasters are well advised to keep a low profile in the Reach, where mages have a reputation for capricious use of power. Elves and half-elves are tolerated but not loved, and nonhumans in general are a quiet minority here."
+    },
+    {
+      "name": "Chondath",
+      "coordinates": "569,313,402,445,435,488,606,335",
+      "description": "To look on Chondath now, a scattering of allied city-states and towns strung along the southern shore of the Sea of Fallen Stars, it’s hard to believe this is the same nation that produced the merchants who settled the powerhouses of Sembia, Cormyr, Impiltur, and half a dozen more kingdoms.\n\nMost other regions in the Vilhon were once part of its empire: now, Chondath is a land darkened by its fall from glory, by the grasping ambitions of its rulers, and by foes all around it. Trade keeps a constant flow of folk leaving and arriving in Chondath from afar, and leads to more tolerance of varying ways and outlanders than visitors expect."
+    },
+    {
+      "name": "Arrabar",
+      "coordinates": "252,434,319,436,322,466,309,470,299,457,252,457,252,444",
+      "description": "Arrabar is a sprawling and ancient city, the proud martial capital of a shrunken empire. Despite its age, the metropolis is clean and well maintained.\n\nIts people are fisherfolk, merchants, craftsfolk, and mercenaries; its ruler, an avaricious schemer and one of the few prominent wizards in the region."
+    },
+    {
+      "name": "Nimpeth",
+      "coordinates": "165,449,233,450,232,487,212,488,212,478,170,472,165,456",
+      "description": "One of the five Free Cities of the Reach, famous for its wine (its vineyards are among the best in Faerun), its mercenaries... and its slave trade."
+    },
+    {
+      "name": "Hlondeth",
+      "coordinates": "191,426,191,403,238,403,248,388,265,394,267,422",
+      "description": "Hlondeth is a stunning, ancient metropolis known broadly as the City of Serpents.\n\nDespite their yuan-ti heritage, the Extaminos family has ruled Hlondeth, lightly and profitably, for several hundred years.\n\nThe city has good relationships with both Chondath and Turmish, though it jealously guards its independence."
+    },
+    {
+      "name": "Sespech",
+      "coordinates": "241,505,246,566,300,552,353,548,354,535,318,535,299,510,251,511",
+      "description": "Sespech is a barony located at the southwest end of the Vilhon Reach. Once a part of Chondath, Sespech maintains its independence delicately, and just barely.\n\nBaron Aldorn Thuragar (LN male human Ftr12) rules Sespech. Once a bold adventurer, Thuragar relies on several old comrades from his former company, the Band of Iron, to help him govern the country.\n\n"
+    },
+    {
+      "name": "Mimph",
+      "coordinates": "279,466,261,481,261,498,312,497,312,488,283,466",
+      "description": "Mimph is only miles by sea from 'Shining Arrabar', capital of Chondath; no love is lost between the two cities.\n\nMost cities across the Vilhon date their founding to no earlier than first century Dalereckoning, some twelve centuries ago. Mimph, however, is similar only to the cities of Hlondeth and Iljak in that it contains several ruins and monuments many - many - centuries older than that.\n\nShips from Arrabar board vessels bound for Mimph from time to time and confiscate their cargoes: this piracy has recently led Baron Thuragar to establish a navy. The current overlord of Mimph is Admiral Kalisa Tauno (NG female moon half-elf Rgr14), currently the one of the only high officials in Sespech who is not an old adventuring companion of Thuragar’s."
+    },
+    {
+      "name": "The Chondalwood",
+      "coordinates": "529,434,626,431,709,621,787,633,781,703,595,656,547,456",
+      "description": "The Chondalwood is one of the largest forests in the Realms; indeed, it is a rarity in that its borders continue to expand.\n\nSatyrs, centaurs, a sizable nation of elves, and the secretive ghostwise halflings all roam this land, as well as various semi-sentient plant creatures.\n\nThe woods' druids are savage, angry dervishes, as willing to attack paladins as orcs in their protection of the trees."
+    },
+    {
+      "name": "The Golden Plains",
+      "coordinates": "379,584,411,608,552,643,561,663,435,639,392,626,363,595",
+      "description": "Named for their tall, golden grasses, these fertile lands blanket the whole area between the Nagaflow and Arran rivers."
+    },
+    {
+      "name": "The Nagawater",
+      "coordinates": "286,573,297,647,333,674,345,672,334,621,324,621,305,566",
+      "description": "A large number of nagas live in the southern end of this deep lake. By old agreement, the nagas stick to the south half the lake, and humans remain in the north."
+    },
+    {
+      "name": "Ormpetarr",
+      "coordinates": "317,574,330,574,336,580,409,573,406,561,332,564,323,561,314,567",
+      "description": "The capital of Sespech is an ancient, walled metropolis whose major industries are trade, horse raising, fishing, and agriculture. Ormpetarr handles all the trade moving along the Golden Road, and serves as a banking center as well."
+    },
+    {
+      "name": "Fort Arran",
+      "coordinates": "413,519,338,515,334,497,317,500,317,514,328,518,328,529,410,531",
+      "description": "This city-around-a-fortress guards the road south into the heart of Sespech and keeps a constant watch on Chondath: if a war is to be fought, it may be the site of the first battle. General Murcius Stonehall (LN male dwarf Ftr11) leads the garrison."
+    },
+    {
+      "name": "Turmish",
+      "coordinates": "235,144,429,141,427,203,248,212",
+      "description": "Turmish is a rich land of villages and few cities: peaceful, civilized, and well-managed.\n\nThe people of Turmish are tall and mahogany-skinned. Widely regarded as fair traders, dependable scholars, and excellent craftsmen, they're welcome throughout the Sea of Fallen Stars."
+    }
+  ]
+}
