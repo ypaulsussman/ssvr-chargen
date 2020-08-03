@@ -1,6 +1,7 @@
 import React from "react";
 import { LOGIN_TOKEN } from "../../constants";
 
+// @TODO: see note in testfile
 const Login = () => {
   const validate = (inputString) => {
     if (inputString === LOGIN_TOKEN) {

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PC-Attribute Cards should render 1`] = `
+<body>
+  <div>
+    <button
+      class="attrcard 
+  attrcard--pinned
+  attrcard--independent
+  "
+      title="Click to pin this attribute (and any parents) for future randomizations"
+    >
+      <h3
+        class="attrcard__name"
+      >
+        meep morp
+        : 
+        foo
+      </h3>
+      <p
+        class="attrcard__description"
+      >
+        bar baz
+      </p>
+    </button>
+  </div>
+</body>
+`;

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Lander.scss'
-// add header component
 
 const Lander = () => {
   return (
@@ -27,13 +26,13 @@ const Lander = () => {
         </p>
       </section>
       <section>
-        <Link to="/mapquiz">
+        <Link aria-label="Link to Campaign Map" to="/mapquiz">
           <h2>Backgrounder Map and Quiz</h2>
         </Link>
         <p>more text here -- why you created it, and what we'll use it for</p>
       </section>
       <section>
-        <Link to="/chargen">
+        <Link aria-label="Link to PC Generator" to="/chargen">
           <h2>Random-PC Generator</h2>
         </Link>
         <p>more text here -- why you created it, and what we'll use it for</p>

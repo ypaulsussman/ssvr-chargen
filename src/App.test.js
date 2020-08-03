@@ -28,7 +28,7 @@ describe("basic app routing", () => {
       expect(screen.getByText("Welcome to the Campaign (setup)!")).toBeInTheDocument();
     });
 
-    test("renders chargen page on root url", () => {
+    test("renders chargen page on chargen url", () => {
       const history = createMemoryHistory();
       history.push("/chargen");
       render(
@@ -39,5 +39,18 @@ describe("basic app routing", () => {
 
       expect(screen.getByText("Vilhon Reach PC Generator")).toBeInTheDocument();
     });
+
+    test("renders mapquiz page on mapquiz url", () => {
+      const history = createMemoryHistory();
+      history.push("/mapquiz");
+      render(
+        <Router history={history}>
+          <App isTokenValid={() => true}/>
+        </Router>
+      );
+
+      expect(screen.getByText("*grid hexes are 60 miles, or ~2-3 days' overland travel")).toBeInTheDocument();
+    });
+    
   });
 });
