@@ -3,7 +3,7 @@
     "races": {
       "human": {
         "name": "Human",
-        "weight": 6,
+        "weight": 4,
         "description": "In most reckonings, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. \n\nPerhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. \n\nWhatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
         "link": "https://www.dndbeyond.com/sources/basic-rules/races#Human"
       },
@@ -14,22 +14,16 @@
         "link": "https://www.dndbeyond.com/sources/basic-rules/races#HalfElf"
       },
       "halfOrc": {
-        "name": "Half-Orc",
+        "name": "Halfling",
         "weight": 1,
-        "description": "The one-eyed god Gruumsh created the orcs, and even those orcs who turn away from his worship can’t fully escape his influence. Half-orcs are not evil by nature, but evil does lurk within them, whether they embrace it or rebel against it. \n\nEach half-orc finds a way to gain acceptance from those who hate orcs. Some are reserved, trying not to draw attention to themselves. A few demonstrate piety and good-heartedness as publicly as they can (whether or not such demonstrations are genuine). And some simply try to be so tough that others just avoid them.",
-        "link": "https://www.dndbeyond.com/sources/basic-rules/races#HalfOrc"
+        "description": "The comforts of home are most halflings’ goal: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Small and practical, kind and curious, many halflings live among other races, where their hard work and loyal outlook offer them abundant rewards. And, when necessary, their inherent stealth and unassuming nature help halflings to avoid unwanted attention.",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/races#Halfling"
       },
       "goldDwarf": {
         "name": "Gold Dwarf",
         "weight": 1,
-        "description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs — these common threads unite all dwarves. \n\n(Of the dwarven subraces, the gold dwarves stem from their mighty southern kingdom along the Great Rift. They're respected for their keen senses, deep intuition, and remarkable resilience.)",
+        "description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs — these common threads unite all dwarves. \n\n(Of the dwarven subraces, the gold dwarves stem from their mighty southern kingdom along the Great Rift. Somewhat more cultured than their grim northern peers, they're respected for keen senses, resilience, and remarkable craftsmanship.)",
         "link": "https://www.dndbeyond.com/sources/basic-rules/races#Dwarf"
-      },
-      "yuanTiPureblood": {
-        "name": "Yuan-Ti Pureblood",
-        "weight": 1,
-        "description": "The serpent creatures known as yuan-ti are all that remains of an ancient, decadent human empire. Ages ago their dark gods taught them profane, cannibalistic rituals to mix their flesh with that of snakes, producing a caste-based society of hybrids in which the most snakelike are the leaders and the most humanlike are spies and agents in foreign lands. \n\n(Note that your PC is unaware of their ancestry: you function as a typical human, save with infrequent, inexplicable impulses toward 'other lives are cheap - survival first - depend on deceit' that you find yourself horrified by... but unable to explain.)",
-        "link": "https://www.dndbeyond.com/races/yuan-ti-pureblood"
       }
     },
     "classes": {
@@ -47,8 +41,8 @@
             "description": "Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Their talent with weapons inspires many blades to lead double lives, or leave the world of performance entirely. With their weapon skills and magic, these blades either take up work as enforcers for thieves’ guilds or strike out on their own as adventurers."
           },
           "collegeOfValor": {
-            "name": "College of Valor",
-            "description": "Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn’t pass from the world."
+            "name": "College of Eloquence",
+            "description": "Bards of the College of Eloquence master the art of persuasion. A well-spoken argument is regarded as high art: and often proves more persuasive than facts. These bards wield a blend of logic and  wordplay, winning over skeptics and audiences alike with their reasoning and emotional appeals."
           }
         }
       },
@@ -133,13 +127,13 @@
         "description": "Rogues rely on skill, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.",
         "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Rogue",
         "archetypes": {
+          "assassin": {
+            "name": "Assassin",
+            "description": "You focus your training on the grim art of death. Whether a scout, hired killer, bounty hunter, or even cloak-and-dagger spy, you use stealth, poison, and disguise to eliminate foes with deadly efficiency."
+          },
           "inquisitive": {
             "name": "Inquisitive",
             "description": "As an Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. Your mastery of lore and your keen deductions make you well equipped to find, expose, and end hidden evils."
-          },
-          "soulknife": {
-            "name": "Soulknife",
-            "description": "Most assassins strike with physical weapons, and many burglars and spies use thieves’ tools to infiltrate secure locations: but a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their adventuring work."
           },
           "thief": {
             "name": "Thief",
@@ -208,7 +202,7 @@
     "characterHooks": {
       "alabasterOutcast": {
         "name": "Alabaster Outcast",
-        "description": "You are a member of one of Arrabar's wealthier families... or rather, you used to be. A falling-out left you disowned and disinherited. You now hope find fortune and reknown enough to shame your former kinsfolk — goals which led you to the Harpers. Despite your exile, your family name still carries considerable weight in the region.",
+        "description": "You are a member of one of Arrabar's wealthier families... or rather, you used to be. A falling-out left you disowned and disinherited. You now hope find fortune and reknown enough to shame your former kinsfolk — goals which led you to meet with Lord Harrovyr. Despite your exile, your family name still carries considerable weight in the region.",
         "backgrounds": {
           "acolyte": {
             "name": "Acolyte",
@@ -238,7 +232,7 @@
       },
       "exDockTough": {
         "name": "Ex-Dock Tough",
-        "description": "Though you were raised as a member of one of Mimph's various criminal gangs, you never fit in with the rest of your settled, metropolitan brethren. The Harpers in particular recognized your wanderlust and potential as an agent. \n\nOver the years, you fell out of favor with the dockland gangs, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you. ",
+        "description": "Though you were raised as a member of one of Mimph's various criminal gangs, you never fit in with the rest of your brethren. Lord Harrovyr recognized your wanderlust, ambition, and potential as an agent. \n\nOver the years, you fell out of favor with the dockland gangs, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you.",
         "backgrounds": {
           "criminal": {
             "name": "Criminal",
@@ -268,7 +262,7 @@
       },
       "exchangeAgent": {
         "name": "Exchange Agent",
-        "description": "Although you're a relative newcomer to Sespech, you're not some naive stranger. You've been sent by the Harper network of the Heartlands to learn more about the Vilhon Reach, by experiencing the southern coast firsthand. After arriving, you reported to Mimph and placed your expertise at Sendra's disposal.",
+        "description": "Although you're a relative newcomer to Sespech, you're not some naive stranger. You've been sent by the Harper network of the Heartlands to learn more about the Vilhon Reach, by experiencing the southern coast firsthand. After arriving, you reported to Mimph and placed your expertise at Lord Harrovyr's disposal.",
         "backgrounds": {
           "anthropologist": {
             "name": "Anthropologist",
@@ -328,7 +322,7 @@
       },
       "regionalWanderer": {
         "name": "Regional Wanderer",
-        "description": "You are a member of the Turami or Shaaran ethnicity; you left your homeland to learn more about the mysteries of the wider world. Your travels have recently brought you to the Mimph, and the attentions of a local scholar.",
+        "description": "You are a member of the Turami or Shaarans; you left your homeland to learn more about the mysteries of the wider world. Your travels have recently brought you to the Mimph, and the attentions of a local scholar.",
         "backgrounds": {
           "entertainer": {
             "name": "Entertainer",
@@ -358,7 +352,7 @@
       },
       "ruinRaider": {
         "name": "Ruin Raider",
-        "description": "While the mercantile networks of the Vilhon Reach appeal to your keen eye for monetary gain, you know that the boldest route to true fortune lies in hunting down rare relics and selling them to the highest bidder. \n\nWorking for the Harpers seemed like an obvious decision, paying for you to travel throughout the region in your search for wealth, so you signed up right away. You brought with you a sharp eye and keen ability to distinguish fakes from the genuine article.",
+        "description": "While the mercantile networks of the Vilhon Reach appeal to your keen eye for monetary gain, you know that the boldest route to true fortune lies in hunting down rare relics and selling them to the highest bidder. \n\nWorking for Lord Harrovyr seemed like an obvious decision, paying for you to travel throughout the region in your search for wealth, so you signed up as soon as he contacted you. You brought with you a sharp eye and keen ability to distinguish fakes from the genuine article.",
         "backgrounds": {
           "archaeologist": {
             "name": "Archaeologist",
@@ -389,36 +383,32 @@
     },
     "npcConnections": {
       "harrovyr": {
-        "name": "Lady Sendra Harrovyr",
-        "description": "human fighter, morningstar and quarterstaff - scholar of tactics, historian of battles - originally from Cormyr - clandestine Harper, reluctant schemer"
+        "name": "Lord Sendar Harrovyr",
+        "description": "A scholar of tactics, battle, and martial history, he is himself inexperienced - indeed, uninterested - in combat itself. Originally from the forest kingdom of Cormyr (north, across the Sea of Fallen Stars), he's a pleasant, quiet scholar foremost, and a clandestine, reluctant schemer for the Harpers second."
       },
       "martish": {
         "name": "Sir Curonar Martish",
-        "description": "expatriate Turami noble - acclaimed scholar of the Vilhon Reach - socially refined, public face of Martish House - spouse of Sendra Harrovyr"
-      },
-      "tauno": {
-        "name": "Admiral Kalisa Tauno",
-        "description": "Lord-Mayor of Mimph - first Sespech high official not from the Baron's old adventuring band - friendly but tired, constantly harried by matters of the governance - current focus is building fleet to counter Arrabar piracy"
+        "description": "An expatriate noble of Turmish, and acclaimed scholar of Vilhon Reach history. The socially refined, public face of Martish House, he's the husband of Lord Harrovyr."
       },
       "ferrentio": {
         "name": "Watcher (Marasa) Ferrentio",
-        "description": "high priestess at temple of Helm (largest in city) - young, powerful force within the entire church hierarchy - temple works with city guard to ensure no region is unpatrolled - also sponsors itinerant Helmite clerics and paladins across the Reach"
+        "description": "The high priestess at Helm's Fast (the largest temple in the city), she's a rising, powerful force within the wider church hierarchy. Perhaps atypically for an archon of the god of vigilance and protection, she's widely respected across Mimph as a warm, cheering presence."
       },
       "nivlandil": {
         "name": "Leïs Nívlandil",
-        "description": "headmaster of Stone of the Seers (small/only school of magic in city) - focus on abjuration and divination magics - air of elitism ascribed to students and faculty - small size actually stems from reticence: knows how mistrusted wizards (and elves) are in the Reach, and wants to tread lightly"
+        "description": "The elven (headmaster/sole instructor) of the Stone of the Seers, (a small/the only) school of magic in Mimph, Leïs combines a weary friendliness with absolute, detailed dedication to his career. (These traits align helpfully with his focus on abjuration and divination magics.) While his academy has a reputation for elitism, its small size actually stems from reticence: knowing how mistrusted both wizards and elves are in the region, he wants to tread lightly."
       },
       "kalmeralm": {
         "name": "Sabriyya Kalmeralm",
-        "description": "owner of the Bazaar of Sails - keeps the peace between squabbling traders, maintains fair prices, limits racketeering - quick wit, aristocratic bearing, fiery temper, and unforgiving memory - daughter of the first Prince of the Market (who disappeared ~30 years ago)"
+        "description": "As owner of the Bazaar of Sails, the city's largest market, Sabriyya keeps the peace between squabbling traders, maintains fair prices, and limits racketeering. Respected for her quick wit, aristocratic bearing, fiery temper, and unforgiving memory, she's the daughter of the first Prince of the Market (who disappeared ~30 years ago), and perhaps his only worthy successor."
       },
       "raakes": {
         "name": "Ma'am Raakës",
-        "description": "half-elven owner of the Coral Reef (largest festhall in town) - four-storey, flamboyant seaside manor-house - beneath passionate facade, a cold-eyed power-broker among the merchants and nobility... and, possibly, less-savory elements"
+        "description": "The half-elven owner of the Coral Reef, a four-storey, flamboyant seaside manor-house (and the largest festhall in town.) Beneath her passionate facade, she remains a cold-eyed power-broker amongst the merchants and nobility... and, it might be rumored, society's less-savory elements."
       },
       "droaeb": {
-        "name": "Jorsten Draeb",
-        "description": "dwarven Master of Games at the Serpent's Run (city hippodrome) - prefers to host decathlons, horse and dog races, displays of magic, circus performances, and (on rare occasions) mock-gladiatorial battles - despite frequent requests, never books what he classifies 'bloodsport'"
+        "name": "Jorsten Droaeb",
+        "description": "The Dwarven Master of Games at Serpent's Run (the city's hippodrome.) A doughty, jocund old salt, he hosts horse- and dog-races, displays of magic, circus performances, and (on rare occasions) mock-gladiatorial battles - but despite ever-more-frequent requests, never books what he deems bloodsport."
       }
     }
   }

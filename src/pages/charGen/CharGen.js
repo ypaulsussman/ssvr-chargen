@@ -68,7 +68,7 @@ class CharGen extends Component {
           <button onClick={this.genNewChar}>Randomize PC!</button>
           {currentChar && (
             <>
-              <h2>Race and Class:</h2>
+              <h2 className="attr-card__heading">Race and Class:</h2>
               <AttrCard
                 attr={currentChar.pcRace}
                 headTitle="Race"
@@ -91,7 +91,9 @@ class CharGen extends Component {
                 unPinKeys={["pcClass", "pcArchetype"]}
               />
 
-              <h2>Background and Campaign Hook:</h2>
+              <h2 className="attr-card__heading">
+                Background and Campaign Hook:
+              </h2>
               <AttrCard
                 attr={currentChar.pcHook}
                 headTitle="Campaign Hook"

@@ -6,11 +6,15 @@
 
   &__content {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 600px;
   }
 
   &__heading {
     margin-top: 0;
     padding-top: 40px;
   }
+}
+
+.attr-card__heading {
+  margin-bottom: 0;
 }
