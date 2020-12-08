@@ -51,11 +51,11 @@ export default class MapQuiz extends Component {
               </p>
             </div>
           </section>
-          <p>*grid hexes are 60 miles, or ~2-3 days' overland travel</p>
+          <p>*grid hexes are 60 miles, or ~2-3 days&apos; overland travel</p>
           <div className="location-list__wrapper">
             <p>
               also it turns out styling the links on the map above is gonna be a
-              huge pain in the ass, so instead here's a list of locations above
+              huge pain in the ass, so instead here&apos;s a list of locations above
               w/ clickable descriptions (in descending order of importance): The
               Vilhon Reach, Sespech, Mimph (where you start), Ormpetarr, Fort
               Arran, Chondath, Arrabar, Turmish, The Chondalwood, The Nagawater,

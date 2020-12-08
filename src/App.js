@@ -1,4 +1,5 @@
 import React from "react";
+import Proptypes from "prop-types";
 import { Route, Switch } from "react-router-dom";
 import Login from "./pages/login/Login";
 import Lander from "./pages/lander/Lander";
@@ -24,6 +25,10 @@ const App = (props) => {
   ) : (
     <Login />
   );
+};
+
+App.propTypes = {
+  isTokenValid: Proptypes.func.isRequired,
 };
 
 export default App;

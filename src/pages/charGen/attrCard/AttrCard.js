@@ -1,4 +1,5 @@
 import React from "react";
+import Proptypes from "prop-types";
 import "./AttrCard.scss";
 
 const AttrCard = ({ attr, headTitle, togglePin, pinKeys, unPinKeys }) => {
@@ -24,6 +25,24 @@ const AttrCard = ({ attr, headTitle, togglePin, pinKeys, unPinKeys }) => {
       </p>
     </button>
   );
+};
+
+AttrCard.propTypes = {
+  attr: Proptypes.shape({
+    description: Proptypes.string.isRequired,
+    name: Proptypes.string.isRequired,
+    pinned: Proptypes.bool,
+  }),
+  headTitle: Proptypes.string.isRequired,
+  togglePin: Proptypes.func.isRequired,
+  pinKeys: Proptypes.arrayOf(Proptypes.string).isRequired,
+  unPinKeys: Proptypes.arrayOf(Proptypes.string).isRequired,
+};
+
+AttrCard.defaultProps = {
+  attr: {
+    pinned: false,
+  },
 };
 
 export default AttrCard;

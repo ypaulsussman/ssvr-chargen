@@ -8,7 +8,7 @@ const Lander = () => {
       <h1>Welcome to the Campaign (setup)!</h1>
 
       <section>
-        <p>If you're here, then either:</p>
+        <p>If you&apos;re here, then either:</p>
         <ol>
           <li>
             I sent you a token so we could get you onboarded and prepped to
@@ -20,7 +20,7 @@ const Lander = () => {
           </li>
         </ol>
         <p>
-          So let's get started! The backgrounder map-n'-quiz should take ~10
+          So let&apos;s get started! The backgrounder map-n&apos;-quiz should take ~10
           min, while you can spend as much time as you like on the rando-PC
           generator.
         </p>
@@ -31,13 +31,13 @@ const Lander = () => {
         </Link>
         <p>Start here first!</p>
         <p>
-          Click 'Randomize' to generate a scaffold of a character. If you see an
+          Click &apos;Randomize&apos; to generate a scaffold of a character. If you see an
           attribute you like, click on it to pin that value for the next
           randomization.
         </p>
         <p>
-          When you've found/assembled a character that you like, hit cmd+p to
-          print (well, save to pdf.) We'll reference it together when building
+          When you&apos;ve found/assembled a character that you like, hit cmd+p to
+          print (well, save to pdf.) We&apos;ll reference it together when building
           out your player sheet.
         </p>
         <p>
@@ -51,17 +51,17 @@ const Lander = () => {
         </Link>
         <p>
           Later on, take a gander at that rad clickable map I put together,
-          using some of 1997's finest HTML.{" "}
+          using some of 1997&apos;s finest HTML.
         </p>
         <p>
-          I don't want to make reference to e.g. "the ruler of Chondath" and
-          have people go "dafuk is a Chondath lol" -- so this just
+          I don&apos;t want to make reference to e.g. &quot;the ruler of Chondath&quot; and
+          have people go &quot;dafuk is a Chondath lol&quot; -- so this just
           includes some basic geography/society of the region through which
-          you'll be traipsing.
+          you&apos;ll be traipsing.
         </p>
         <p>
-          (Confession: it's titled as "Map and Quiz" everywhere, but the latter
-          is entirely missing -- I haven't had time to create one.)
+          (Confession: it&apos;s titled as &quot;Map and Quiz&quot; everywhere, but the latter
+          is entirely missing -- I haven&apos;t had time to create one.)
         </p>
       </section>
     </main>
