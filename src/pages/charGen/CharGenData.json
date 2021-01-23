@@ -7,61 +7,67 @@
         "description": "In most reckonings, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. \n\nPerhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. \n\nWhatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
         "link": "https://www.dndbeyond.com/sources/basic-rules/races#Human"
       },
-      "halfWoodElf": {
-        "name": "Half Wood-Elf",
+      "halfMoonElf": {
+        "name": "Half Moon-Elf",
         "weight": 1,
-        "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. \n\n(Of the elven subraces, wood elves are known for their keen senses and intuition, as well as being reclusive and distrusting of non-elves. They move quickly and stealthily through their native forests, such as the Chondalwood.)",
+        "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. \n\n(Of the elven subraces, moon elves are the most common, and most tolerant of humankind.)",
         "link": "https://www.dndbeyond.com/sources/basic-rules/races#HalfElf"
       },
-      "halfOrc": {
+      "halfling": {
         "name": "Halfling",
         "weight": 1,
         "description": "The comforts of home are most halflings’ goal: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Small and practical, kind and curious, many halflings live among other races, where their hard work and loyal outlook offer them abundant rewards. And, when necessary, their inherent stealth and unassuming nature help halflings to avoid unwanted attention.",
         "link": "https://www.dndbeyond.com/sources/basic-rules/races#Halfling"
       },
-      "goldDwarf": {
-        "name": "Gold Dwarf",
+      "halfOrc": {
+        "name": "Half-Orc",
         "weight": 1,
-        "description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs — these common threads unite all dwarves. \n\n(Of the dwarven subraces, the gold dwarves stem from their mighty southern kingdom along the Great Rift. Somewhat more cultured than their grim northern peers, they're respected for keen senses, resilience, and remarkable craftsmanship.)",
+        "description": "The one-eyed god Gruumsh created the orcs, and even those orcs who turn away from his worship can’t fully escape his influence. Half-orcs are not evil by nature, but evil does lurk within them, whether they embrace it or rebel against it. \n\nEach half-orc finds a way to gain acceptance from those who hate orcs. Some are reserved, trying not to draw attention to themselves. A few demonstrate piety and good-heartedness as publicly as they can (whether or not such demonstrations are genuine). And some simply try to be so tough that others just avoid them.",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/races#HalfOrc"
+      },
+      "shieldDwarf": {
+        "name": "Shield Dwarf",
+        "weight": 1,
+        "description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs — these common threads unite all dwarves. \n\n(Of the dwarven subraces, the shield dwarves are somewhat grimmer than their southern Gold Dwarf peers. Once the rulers of mighty kingdoms across - and below - the north, shield dwarves have scattered across the region after centuries of warfare with goblinoid and underdark denizens.)",
         "link": "https://www.dndbeyond.com/sources/basic-rules/races#Dwarf"
       }
     },
     "classes": {
-      "bard": {
-        "name": "Bard",
-        "description": "The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. \n\nBards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge.",
-        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Bard",
+      "barbarian": {
+        "name": "Barbarian",
+        "description": "For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength. Coming alive in the chaos of combat and thriving in the wilds of their homelands, barbarians embrace their keen, primal nature.\n\nNot every “barbarian” tribe has members of the barbarian class: true barbarians among these people is as uncommon as a skilled duellist or strategist in a town, and they play a similar role in society.",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Barbarian",
         "archetypes": {
-          "collegeOfLore": {
-            "name": "College of Lore",
-            "description": "Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. \n\nThe college’s members gather in libraries, and sometimes in actual colleges, to share their learning with one another."
+          "pathOfTheAncestralGuardian": {
+            "name": "Path of the Ancestral Guardian",
+            "description": "Some barbarians hail from cultures that revere their ancestors. When a barbarian who follows this path rages, they contact the spirit world and call on the warriors of their culture's past. These guardian spirits reach into the material realm to provide their descendents supernatural protection."
           },
-          "collegeOfSwords": {
-            "name": "College of Swords",
-            "description": "Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Their talent with weapons inspires many blades to lead double lives, or leave the world of performance entirely. With their weapon skills and magic, these blades either take up work as enforcers for thieves’ guilds or strike out on their own as adventurers."
+          "pathOfTheBerserker": {
+            "name": "Path of the Berserker",
+            "description": "The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker’s rage, you immerse yourself in the madness of battle, heedless of your health but murderously swift and focused."
           },
-          "collegeOfValor": {
-            "name": "College of Eloquence",
-            "description": "Bards of the College of Eloquence master the art of persuasion. A well-spoken argument is regarded as high art: and often proves more persuasive than facts. These bards wield a blend of logic and  wordplay, winning over skeptics and audiences alike with their reasoning and emotional appeals."
+          "pathOfTheTotemWarrior": {
+            "name": "Path of the Totem Warrior",
+            "description": "Barbarians of this path accept a spirit animal as guide, protector, and inspiration. In battle, this spirit fills you with supernatural might, adding magical fuel to your barbarian rage.\n\n(PC's of the Black Lion tribe of Uthgardt follow the Tiger totem; those of the Sky Pony tribe follow the Eagle.)"
           }
         }
       },
-      "cleric": {
-        "name": "Cleric",
-        "description": "Clerics are intermediaries between the mortal world and the distant planes of the gods, striving to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine power, manifesting it as miraculous effects. \n\nHarnessing such magic doesn’t rely on study or training: a cleric might learn formulaic prayers and ancient rites, but their ability to cast spells relies on devotion and an intuitive sense of their deity’s wishes. When a cleric takes up an adventuring life, it is usually because his or her god demands it.",
-        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Cleric",
+      "druid": {
+        "name": "Druid",
+        "description": "Druids are an embodiment of nature’s resilience, cunning, and fury. They claim no mastery over nature: instead, they see themselves the extension of its indomitable will.\n\nTheir highest concerns are the delicate ecological balance that sustains life, and the need for civilized folk to live in harmony with nature, not in opposition to it. Druids cast spells oriented toward nature and animals, even gaining the ability to take on feral forms.",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Druid",
         "archetypes": {
-          "helm": {
-            "name": "Helm (Protection)",
-            "description": "The god of vigilance and protection, He of the Unsleeping Eye is seen as the epitome of the guardian, the watcher, and the guard. Helm is venerated by those who need to remain watchful for enemies or danger. \n\nHe is a favorite deity of people who make a living by protecting someone or something, such as bodyguards, members of the city watch, and the guards of a treasury vault."
+          "circleOfTheLand": {
+            "name": "Circle of the Land",
+            "description": "These mystics and sages safeguard ancient knowledge through a vast oral tradition. The circle’s wisest members preside as the chief priests of communities that hold to the nature gods, and serve as advisors to the rulers of those folk.\n\nAs a member of this circle, your magic is influenced by the land where you were initiated into the circle’s mysterious rites (in the case of the PC's, either Mountain, Forest, or Arctic.)"
           },
-          "tempus": {
-            "name": "Tempus (War)",
-            "description": "Tempus is the god of war, concerned with brave conduct, using force of arms over talk, and encouraging bloodshed. The Lord of Battles' chaotic nature favors all sides equally: Tempus might be an army’s ally one day, and its enemy the next. \n\nWhile The Foehammer's favor is randomly distributed, over the centuries his priests have made an effort to enforce a common code of warfare — to make it a thing of rules, respect for reputations, and professional behavior. This code, Tempus’s Honor, has the purpose of making conflicts brief, decisive, and as safe as possible for those not directly involved."
+          "circleOfTheMoon": {
+            "name": "Circle of the Moon",
+            "description": "Fierce guardians of the wilds, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid’s blood."
           },
-          "waukeen": {
-            "name": "Waukeen (Knowledge)",
-            "description": "Our Lady of Gold is the goddess of wealth and trade, on both sides of the law. Her most ardent worshipers include shopkeepers, members of trading costers, caravan guides, peddlers, moneychangers, and smugglers. The Merchant's Friend is interested in anything that increases trade and the flow of money, whether new trade routes, new inventions, or the whim of changing fashion. \n\nThose who take Waukeen as a patron can be reliably thought of as greedy, but the Coinmaiden is said to frown upon misers and smile upon the industrious and profligate, and thus priests who bear her holy symbol find themselves welcome in many towns and cities."
+          "circleOfTheShepherd": {
+            "name": "Circle of the Shepherd",
+            "description": "This circle communes with the spirits of nature, especially of the beasts and the fey, and calls to those spirits for aid. They ward off monsters that threaten them, rebuke hunters who kill more than necessary, and prevent civilization from encroaching on rare animal habitats and on sites sacred to the fey. And wherever they go, the spirits of the wilderness are with them."
           }
         }
       },
@@ -70,36 +76,17 @@
         "description": "Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill. Likewise, a fighter is adept with shields and every form of armor. \n\nBeyond that basic degree of familiarity, each fighter specializes in a certain style of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. \n\nThis combination of broad general ability and extensive specialization makes fighters superior combatants on battlefields and in dungeons alike.",
         "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Fighter",
         "archetypes": {
-          "battleMaster": {
-            "name": "Battle Master",
-            "description": "These warriors employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. \n\nNot every fighter can absorb the lessons of history, theory, and artistry that are reflected in this archetype: but those who do are well-rounded fighters of great skill and knowledge."
+          "cavalier": {
+            "name": "Cavalier",
+            "description": "The archetypal Cavalier excels at mounted combat. These warriors also excel at guarding themselves and those in their charge from harm, often serving as the protectors of their superiors and of the weak."
           },
           "champion": {
             "name": "Champion",
             "description": "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows."
           },
-          "psiKnight": {
-            "name": "Psi Knight",
-            "description": "Awake to the mental powers within, a Psi Knight is a fighter who augments their martial might with psychic-infused weapon strikes, telekinetic lashes, and barriers of cerebral force. You harbor a wellspring of psionic power within yourself, an energy that ebbs and flows as you channel it in various ways."
-          }
-        }
-      },
-      "monk": {
-        "name": "Monk",
-        "description": "Monks make careful study of an energy that most traditions call ki. This is an element of the magic that suffuses the multiverse: specifically, the element that flows through living things. Monks harness this power within themselves to create magical effects and exceed their bodies’ physical capabilities, and some of their special attacks can hinder the flow of ki in their opponents. \n\nUsing this energy, monks channel uncanny speed and strength into their unarmed strikes. As they gain experience, their martial training and their mastery of ki gives them more power over their bodies and the bodies of their foes.",
-        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Monk",
-        "archetypes": {
-          "drunkenMaster": {
-            "name": "Way of the Drunken Master (City Brawler)",
-            "description": "The Way of the Drunken Master teaches its students to move with the jerky, unpredictable movements of a drunkard. Swaying and tottering on unsteady feet, they present what seems like an incompetent combatant who proves frustrating to engage. \n\nA drunken master often enjoys playing the fool to bring gladness to the despondent or to demonstrate humility to the arrogant, but when battle is joined, the drunken master can be a maddening, masterful foe."
-          },
-          "kensei": {
-            "name": "Way of the Kensei (Descendent of the Bladelords)",
-            "description": "Monks of the Way of the Kensei train relentlessly with their weapons, to the point where the weapon becomes an extension of the body. \n\nA kensei sees a weapon in much the same way a calligrapher or painter regards a pen or brush: a tool used to express the beauty and precision of their art. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study."
-          },
-          "wayOfMercy": {
-            "name": "Way of Mercy (Paths of Mussum and Nun)",
-            "description": "Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help — whether ailing or evil — they bring a swift end as an act of mercy. \n\nThose who follow the Way of Mercy administer to those in greatest need, making grim choices rooted in reality rather than idealism."
+          "runeKnight": {
+            "name": "Rune Knight",
+            "description": "These fighters enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Whether you first found giants' work carved into a hill or cave, learned of the runes from a sage, or met a giant in person, you've learned the craft of applying magic runes to empower yourself and your equipment."
           }
         }
       },
@@ -112,13 +99,32 @@
             "name": "Oath of the Crown",
             "description": "The Oath of the Crown is sworn to the ideals of civilization: paladins who swear this oath dedicate themselves to serving society and, in particular, the just laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built."
           },
-          "devotion": {
-            "name": "Oath of Devotion",
-            "description": "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. These paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. Many who swear this oath are devoted to gods of law and good, and use their deities’ tenets as the measure of their devotion."
+          "glory": {
+            "name": "Oath of Glory",
+            "description": "The Oath of Glory destines you and your companions to achieve historical reknown through deeds of heroism. You're called to train diligently and encourage their companions so they’re all ready when destiny calls."
           },
-          "redemption": {
-            "name": "Oath of Redemption",
-            "description": "The Oath of Redemption sets a paladin on a difficult path, one that requires a holy warrior to use violence only as a last resort. Paladins who dedicate themselves to this oath believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk. \n\nWhile redeemers are idealists, they are no fools: they know undead, demons, devils, and other supernatural threats can be inherently evil, and against such foes they bring the full wrath of their weapons and spells to bear."
+          "vengeance": {
+            "name": "Oath of Vengeance",
+            "description": "This oath is a solemn commitment to punish those who have committed a grievous sin. To these paladins, their own purity is not as important as delivering justice, fighting the greater evil, and achieving restitution for those wronged."
+          }
+        }
+      },
+      "ranger": {
+        "name": "Ranger",
+        "description": "Warriors of the wilderness, rangers specialize in hunting threats against the edges of civilization: humanoid raiders, rampaging beasts and monstrosities, and mighty giants and dragons. They move stealthily through the wilds, hiding themselves in brush and rubble. Rangers focus their combat training on specific types of foes, and acquire the ability to cast spells that harness nature’s power.",
+        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Ranger",
+        "archetypes": {
+          "beastMaster": {
+            "name": "Beast Master",
+            "description": "This archetype embodies a bond between the civilized races and the beasts of the wild. United in focus, animal and ranger fight the monsters that threaten town and the wilderness alike."
+          },
+          "hunter": {
+            "name": "Hunter",
+            "description": "These rangers accept their place as a bulwark between civilization and the terrors of the wilderness. The hunter’s path is one of specialized techniques for fighting the threats they face, from marauding ogres and hordes of orcs to towering giants and terrifying dragons."
+          },
+          "swarmKeeper": {
+            "name": "Swarm Keeper",
+            "description": "A swarm of intangible nature spirits has bonded itself to you and can assist you in battle. Until you die, the swarm remains, crawling on you or flying around within your space (you determine its appearance.)"
           }
         }
       },
@@ -127,13 +133,13 @@
         "description": "Rogues rely on skill, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.",
         "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Rogue",
         "archetypes": {
-          "assassin": {
-            "name": "Assassin",
-            "description": "You focus your training on the grim art of death. Whether a scout, hired killer, bounty hunter, or even cloak-and-dagger spy, you use stealth, poison, and disguise to eliminate foes with deadly efficiency."
+          "scout": {
+            "name": "Scout",
+            "description": "You are skilled in stealth and surviving far from the streets of a city. Rogues of this archetype are at home in nature, serving as the eyes and ears of companies as they range across the wilderness."
           },
-          "inquisitive": {
-            "name": "Inquisitive",
-            "description": "As an Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. Your mastery of lore and your keen deductions make you well equipped to find, expose, and end hidden evils."
+          "swashbuckler": {
+            "name": "Swashbuckler",
+            "description": "You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent."
           },
           "thief": {
             "name": "Thief",
@@ -146,36 +152,17 @@
         "description": "Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. One can’t study sorcery as one learns a language, any more than one can learn to live a legendary life. No one chooses sorcery; the power chooses the sorcerer.",
         "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Sorcerer",
         "archetypes": {
-          "draconic": {
-            "name": "Draconic Bloodline (Blue or Gold)",
-            "description": "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure."
+          "divineSoul": {
+            "name": "Divine Soul",
+            "description": "The spark of magic that fuels these sorcerers comes from a divine source: a distant but powerful familial connection to a divine being, or one's alignment with a religious prophecy.\n\n(In this campaign, contender deities would be Tyr Grimjaws, the even-handed Lord of Justice; Eldath, the goddess guardian of groves and watersheds; or Moradin Soul-Forger, the father of all dwarves.)"
           },
-          "psionicSoul": {
-            "name": "Psionic Soul (Descendent of the Psiarchs)",
-            "description": "One day a light blazed forth within you: your mind now simmers with this power, the full extent of which you won’t fully grasp for years to come. You can touch other minds with it, and alter the world around you by using it to control the magical energy of the multiverse."
+          "draconic": {
+            "name": "Draconic Bloodline (Silver, Red, or White)",
+            "description": "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure."
           },
           "stormSorcery": {
             "name": "Storm Sorcery",
             "description": "Your innate magic comes from the power of elemental air and water. Perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent creatures such as djinni or marids. Whatever the case, the magic of the storm permeates your being."
-          }
-        }
-      },
-      "warlock": {
-        "name": "Warlock",
-        "description": "Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular. \n\nDrawing on the ancient knowledge of otherworldly, non-deific beings, warlocks piece together arcane secrets to bolster their own power.",
-        "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Warlock",
-        "archetypes": {
-          "celestial": {
-            "name": "The Celestial (Auppenser's Chamberlain)",
-            "description": "Your patron is a powerful being of the Upper Planes. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse: but you know that your mission is among mortals for now, and that your pact binds you to bring that light to the dark places of the world."
-          },
-          "hexblade": {
-            "name": "The Hexblade (Dhinnilith's Glory)",
-            "description": "You have made your pact with a mysterious entity — a force that manifests in sentient magic weapons smithed with arts long lost."
-          },
-          "deepLurker": {
-            "name": "The Lurker in the Deep (Naarkolyth's Ghost)",
-            "description": "You made a pact with an entity that lurks somewhere deep in the ocean. You serve as this creature’s eyes and ears, watching the world beyond its domain and reporting your findings."
           }
         }
       },
@@ -184,161 +171,85 @@
         "description": "Emerging from the subtle weave that permeates the cosmos, the power of magic draws students who seek to study and master its mysteries. Wizards live and die by their spells: everything else is secondary. \n\nThey discover new spells as they experiment and grow in experience, and can also learn them from other wizards, from ancient tomes or inscriptions, and from ancient creatures steeped in magic.",
         "link": "https://www.dndbeyond.com/sources/basic-rules/classes#Wizard",
         "archetypes": {
-          "abjuration": {
-            "name": "School of Abjuration",
-            "description": "The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion. You understand, however, that ending harmful effects, protecting the weak, and banishing evil influences is anything but a philosophical void. It is a proud and respected vocation."
-          },
-          "divination": {
-            "name": "School of Divination",
-            "description": "The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight."
+          "conjuration": {
+            "name": "School of Conjuration",
+            "description": "As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant."
           },
           "transmutation": {
             "name": "School of Transmutation",
             "description": "You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality’s forge."
+          },
+          "warMagic": {
+            "name": "War Magic",
+            "description": "Rather than specializing in one of the eight traditional schools, this tradition blends principles of evocation and abjuration. It teaches techniques that empower a caster’s spells, while also providing methods to bolster one's own defenses."
           }
         }
       }
     },
     "characterHooks": {
-      "alabasterOutcast": {
-        "name": "Alabaster Outcast",
-        "description": "You are a member of one of Arrabar's wealthier families... or rather, you used to be. A falling-out left you disowned and disinherited. You now hope find fortune and reknown enough to shame your former kinsfolk — goals which led you to meet with Lord Harrovyr. Despite your exile, your family name still carries considerable weight in the region.",
+      "thirdScion": {
+        "name": "Third Scion",
+        "description": "Jagrin Grannath is the Auvandell's Patrol Leader, singlemindedly determined to protect his town from all threats of the wilderness. Rodrick and Karst are his two twin sons, neither as grim as their father but, as the town's two Patrol Captains, nonetheless carrying on his work. And you are their younger sibling, not more than months old when your mother was slain on patrol by orcs.\n\nYour relationship with your father may be antagonistic, one of unrealized devotion, of bland tolerance, or anything else: but you look up to both your older brothers, ensconced as they are in the town's defense and admired as they are by the other townsfolk for their leadership and hard work.",
         "backgrounds": {
           "acolyte": {
             "name": "Acolyte",
             "description": "You have spent your life in the service of a temple. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine."
           },
-          "charlatan": {
-            "name": "Charlatan",
-            "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage."
+          "cityWatch": {
+            "name": "City Watch",
+            "description": "You have served the community where you grew up, standing as its first line of defense against crime. You're not a soldier, directing your gaze outward at possible enemies. Instead, your service to your hometown was to help police its populace, protecting the citizenry from lawbreakers and malefactors of every stripe."
           },
-          "cloisteredScholar": {
-            "name": "Cloistered Scholar",
-            "description": "As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to an institute of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home: not to abandon it, but to quest for new lore to add to its storehouse of knowledge."
-          },
-          "courtier": {
-            "name": "Courtier",
-            "description": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position."
-          },
-          "inheritor": {
-            "name": "Inheritor",
-            "description": "You are the heir to something of great value — not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. \n\nThe revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you — by force, if need be."
-          },
-          "noble": {
-            "name": "Noble",
-            "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. \n\nYou might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them."
-          }
-        }
-      },
-      "exDockTough": {
-        "name": "Ex-Dock Tough",
-        "description": "Though you were raised as a member of one of Mimph's various criminal gangs, you never fit in with the rest of your brethren. Lord Harrovyr recognized your wanderlust, ambition, and potential as an agent. \n\nOver the years, you fell out of favor with the dockland gangs, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you.",
-        "backgrounds": {
-          "criminal": {
-            "name": "Criminal",
-            "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. \n\nYou’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
+          "entertainer": {
+            "name": "Entertainer",
+            "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life."
           },
           "folkHero": {
             "name": "Folk Hero",
             "description": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere."
           },
-          "gladiator": {
-            "name": "Gladiator",
-            "description": "A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor."
-          },
-          "fisher": {
-            "name": "Fisher",
-            "description": "You have spent your life aboard fishing vessels or combing the shallows for the bounty of the ocean. Perhaps you were born into a family of fisher folk, working with your kin to feed your village. \n\nMaybe the job was a means to an end — a way out of an undesirable circumstance that forced you to take up life aboard a ship. Regardless of how you began, you soon fell in love with the sea, the art of fishing, and the promise of the eternal horizon."
-          },
-          "sailor": {
-            "name": "Sailor",
-            "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new."
-          },
-          "urchin": {
-            "name": "Urchin",
-            "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. \n\nYou’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each."
+          "hauntedOne": {
+            "name": "Haunted One",
+            "description": "You are haunted by something so terrible that you dare not speak of it. You’ve tried to bury it and run away from it, to no avail. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you."
           }
         }
       },
-      "exchangeAgent": {
-        "name": "Exchange Agent",
-        "description": "Although you're a relative newcomer to Sespech, you're not some naive stranger. You've been sent by the Harper network of the Heartlands to learn more about the Vilhon Reach, by experiencing the southern coast firsthand. After arriving, you reported to Mimph and placed your expertise at Lord Harrovyr's disposal.",
+      "guardianOfTheSpring": {
+        "name": "Guardian of the Spring",
+        "description": "An orphan, you were taken in by the venerable, mute elven druid who guards the Hopespring. Regardless of your magical skills, Thillùrän (\"Silvertop\" to most townsfolk) has trained you in the arts of watching and working the natural world. Only you (and, to significantly lesser degree, the Chief Councilor Halgra) have mastered the druidic sign-language he uses to communicate.\n\nThrough this, he's also passed on a strong knowledge of the region's history -- though there is still much, you feel, he has yet to relate. In most other regards, your life has been similar to that of other townsfolk, including monthly patrol participation.",
         "backgrounds": {
-          "anthropologist": {
-            "name": "Anthropologist",
-            "description": "You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures’ customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. \n\nThis knowledge came to you not only through books and scrolls, but also through first-hand observation: by visiting far-flung settlements and exploring local histories and customs."
+          "acolyte": {
+            "name": "Acolyte",
+            "description": "You have spent your life in the service of a temple. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine."
           },
-          "courtier": {
-            "name": "Courtier",
-            "description": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position."
-          },
-          "entertainer": {
-            "name": "Entertainer",
-            "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life."
-          },
-          "sailor": {
-            "name": "Sailor",
-            "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new."
-          },
-          "smuggler": {
-            "name": "Smuggler",
-            "description": "On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master’s oblivious lackeys. You have paddled a riverboat filled with stolen elven wine under the gaze of the moon and sold it for twice its value in the morning. In your more charitable times, you have transported innocents out of war zones or helped guide herd animals to safety on the banks of a burning river."
-          },
-          "spy": {
-            "name": "Spy",
-            "description": "Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder."
-          }
-        }
-      },
-      "monumentScholar": {
-        "name": "Monument Scholar",
-        "description": "As a child in Mimph, the city's ancient architecture inspired you with wonder. Your fascination with these relics has only grown in the years since: and, though you know little about the actual lore of the millennia-old monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks. \n\nThrough these studies, you've encountered the research of Harrovyr/Martish several times... and they, apparently, have learned of you.",
-        "backgrounds": {
           "archaeologist": {
             "name": "Archaeologist",
             "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms."
           },
-          "cloisteredScholar": {
-            "name": "Cloistered Scholar",
-            "description": "As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to an institute of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home: not to abandon it, but to quest for new lore to add to its storehouse of knowledge."
-          },
-          "guildArtisan": {
-            "name": "Guild Artisan",
-            "description": "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right."
+          "factionAgent": {
+            "name": "Faction Agent",
+            "description": "Many organizations active in the North employ listeners, rumormongers, smugglers, cache-holders, haven keepers, and message-drop minders, to name a few. You served as an agent of a particular faction, the Harpers. Becoming an adventurer doesn’t necessarily require you to relinquish membership, and it might enhance your status."
           },
           "hermit": {
             "name": "Hermit",
             "description": "You lived in seclusion — either in a sheltered community such as a monastery, or entirely alone — for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for."
           },
-          "noble": {
-            "name": "Noble",
-            "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. \n\nYou might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them."
-          },
-          "sage": {
-            "name": "Sage",
-            "description": "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study."
+          "inheritor": {
+            "name": "Inheritor",
+            "description": "You are the heir to something of great value — not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. \n\nThe revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you — by force, if need be."
           }
         }
       },
-      "regionalWanderer": {
-        "name": "Regional Wanderer",
-        "description": "You are a member of the Turami or Shaarans; you left your homeland to learn more about the mysteries of the wider world. Your travels have recently brought you to the Mimph, and the attentions of a local scholar.",
+      "savedOnTheRoad": {
+        "name": "Saved on the Road",
+        "description": "It was your first journey as a newly-minted caravan guard; perhaps it was your first time out of Silverymoon entirely. Whether a flock of perytons, a rampaging owlbear, or something still more sinister, your caravan was set upon and torn apart not more than a day after you'd passed the Hawk's Nest along the Silverymoon Pass. Perhaps others survived; if so, not many beyond you persisted long enough to be encountered by one of the patrols out of Auvandell.\n\nYou've spent the last several weeks recuperating (first in the Sanctuary of the Just, then in the Ramblehouse.) Shaken, enraged, grim, or unaffected, you're now beginning to plan the next steps in your thus-far unfortunate career.",
         "backgrounds": {
-          "entertainer": {
-            "name": "Entertainer",
-            "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life."
-          },
-          "gladiator": {
-            "name": "Gladiator",
-            "description": "A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor."
-          },
           "guildMerchant": {
             "name": "Guild Merchant",
             "description": "You belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. \n\nPerhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop."
           },
-          "inheritor": {
-            "name": "Inheritor",
-            "description": "You are the heir to something of great value — not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. \n\nThe revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you — by force, if need be."
+          "hauntedOne": {
+            "name": "Haunted One",
+            "description": "You are haunted by something so terrible that you dare not speak of it. You’ve tried to bury it and run away from it, to no avail. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you."
           },
           "mercenaryVeteran": {
             "name": "Mercenary Veteran",
@@ -347,68 +258,116 @@
           "outlander": {
             "name": "Outlander",
             "description": "You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. \n\nThe wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild."
+          },
+          "soldier": {
+            "name": "Soldier",
+            "description": "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, and learned basic survival techniques. You were part of the the Argent Legion, the Silver Marches' standing army drawn from its consituent city-state members."
           }
         }
       },
-      "ruinRaider": {
-        "name": "Ruin Raider",
-        "description": "While the mercantile networks of the Vilhon Reach appeal to your keen eye for monetary gain, you know that the boldest route to true fortune lies in hunting down rare relics and selling them to the highest bidder. \n\nWorking for Lord Harrovyr seemed like an obvious decision, paying for you to travel throughout the region in your search for wealth, so you signed up as soon as he contacted you. You brought with you a sharp eye and keen ability to distinguish fakes from the genuine article.",
+      "artifactHunter": {
+        "name": "Artifact Hunter",
+        "description": "You’ve always had an interest in magic, but you’re fascinated by legendary magical items. (And, with the ruins of such ancient civilizations as Netheril, Delzoun, and Earlann all nearby, you're hardly starved for material.) You’ve spent years researching mythical relics and committed the stories and legends about them to memory, making you something of an expert on the subject... at least in theory.\n\nSome weeks ago, while on your patrol rotation, you'd mentioned to Patrol Captain Rodrick your desire to leave the city walls and discover more of these fallen kingdoms' artifacts first-hand.",
         "backgrounds": {
+          "anthropologist": {
+            "name": "Anthropologist",
+            "description": "You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures’ customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. \n\nThis knowledge came to you not only through books and scrolls, but also through first-hand observation: by visiting far-flung settlements and exploring local histories and customs."
+          },
           "archaeologist": {
             "name": "Archaeologist",
-            "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs. \n\nThose who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms."
+            "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms."
           },
-          "charlatan": {
-            "name": "Charlatan",
-            "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage."
+          "cloisteredScholar": {
+            "name": "Cloistered Scholar",
+            "description": "As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to an institute of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home: not to abandon it, but to quest for new lore to add to its storehouse of knowledge."
           },
-          "criminal": {
-            "name": "Criminal",
-            "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. \n\nYou’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
-          },
-          "guildArtisan": {
-            "name": "Guild Artisan",
-            "description": "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. \n\nYou learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right."
-          },
-          "guildMerchant": {
-            "name": "Guild Merchant",
-            "description": "You belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). \n\nYour guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop."
+          "sage": {
+            "name": "Sage",
+            "description": "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study."
           },
           "urchin": {
             "name": "Urchin",
             "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. \n\nYou’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each."
           }
         }
+      },
+      "sundabarranExpatriate": {
+        "name": "Sundabarran Expatriate",
+        "description": "Perhaps they were done with the guilds' feuding for advantage and more wealth, or perhaps they wanted to take their craft to wider markets. In any event, your family left Sundabar for Auvandell, now happily working either with Arsha Mornstar at the Clamor (as smiths or smelters) or with Lesse Nimrum at the Countinghouse (as accountants, cartographers, or even adepts.)\n\nPerhaps you miss the \"stone and suspicion\" of your native city; perhaps you'd be happy never to remember a place without trees again. Regardless, you love the Auvandell region as only someone can who's known its absence: if the town needs something to survive, you'll be among the first to volunteer to provide it.",
+        "backgrounds": {
+          "charlatan": {
+            "name": "Charlatan",
+            "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage."
+          },
+          "clanCrafter": {
+            "name": "Clan Crafter",
+            "description": "The Stout Folk are well known for their artisanship and the worth of their handiworks, and you have been trained in that ancient tradition. Whether or not a dwarf yourself, you labored for years under a dwarven master of the craft, enduring long hours and dismissive, sour-tempered treatment in order to gain the fine skills you possess today."
+          },
+          "guildArtisan": {
+            "name": "Guild Artisan",
+            "description": "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right."
+          },
+          "guildMerchant": {
+            "name": "Guild Merchant",
+            "description": "You belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. \n\nPerhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop."
+          },
+          "noble": {
+            "name": "Noble",
+            "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. \n\nYou might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them."
+          }
+        }
+      },
+      "wanderingSavage": {
+        "name": "Wandering Savage",
+        "description": "One of the North's dozen remaining barbarian clans, you belong either to the Black Lion or Sky Pony tribe. Inexplicable as it was to the townsfolk, your volunteering for patrols on arrival in Auvendell resulted in a rapid and fast friendship with either Rodrick or Karst Grannath.\n\nIf a Black Lion, you've left their recently-settled village at Beorunna's Well: likely at the chieftan's direction, to muster commerce and future allies in the civilized lands. If a Sky Pony, you've most likely left because you find your particular band's current raiding of Dwarf caravans shortsighted and craven.",
+        "backgrounds": {
+          "uthgardtTribeMember ": {
+            "name": "Uthgardt Tribe Member ",
+            "description": "Your people have always tried to hold to the old ways. Tradition and taboo have kept the Uthgardt strong while the kingdoms of others have collapsed into chaos and ruin. You might have grown up one of the tribes that have decided to settle down; or you might come from a segment of the Uthgardt that adheres to tradition. Either way, though you might have only recently arrived in civilized lands, you are no stranger to the values of cooperation and group effort when striving for survival."
+          }
+        }
       }
     },
     "npcConnections": {
-      "harrovyr": {
-        "name": "Lord Sendar Harrovyr",
-        "description": "A scholar of tactics, battle, and martial history, he is himself inexperienced - indeed, uninterested - in combat itself. Originally from the forest kingdom of Cormyr (north, across the Sea of Fallen Stars), he's a pleasant, quiet scholar foremost, and a clandestine, reluctant schemer for the Harpers second."
+      "watchtower": {
+        "name": "Patrol Captain Orrum Rast",
+        "description": "See '1. The Watchtower' for more details"
       },
-      "martish": {
-        "name": "Sir Curonar Martish",
-        "description": "An expatriate noble of Turmish, and acclaimed scholar of Vilhon Reach history. The socially refined, public face of Martish House, he's the husband of Lord Harrovyr."
+      "countinghouse": {
+        "name": "Lessë Nedumyr",
+        "description": "See '4. The Countinghouse' for more details"
       },
-      "ferrentio": {
-        "name": "Watcher (Marasa) Ferrentio",
-        "description": "The high priestess at Helm's Fast (the largest temple in the city), she's a rising, powerful force within the wider church hierarchy. Perhaps atypically for an archon of the god of vigilance and protection, she's widely respected across Mimph as a warm, cheering presence."
+      "field": {
+        "name": "Rastyr Gyrban",
+        "description": "See '5. The Field' for more details"
       },
-      "nivlandil": {
-        "name": "Leïs Nívlandil",
-        "description": "The elven (headmaster/sole instructor) of the Stone of the Seers, (a small/the only) school of magic in Mimph, Leïs combines a weary friendliness with absolute, detailed dedication to his career. (These traits align helpfully with his focus on abjuration and divination magics.) While his academy has a reputation for elitism, its small size actually stems from reticence: knowing how mistrusted both wizards and elves are in the region, he wants to tread lightly."
+      "sanctuary01": {
+        "name": "Arbiter Tyedra Morlund",
+        "description": "See '6. The Sanctuary' for more details"
       },
-      "kalmeralm": {
-        "name": "Sabriyya Kalmeralm",
-        "description": "As owner of the Bazaar of Sails, the city's largest market, Sabriyya keeps the peace between squabbling traders, maintains fair prices, and limits racketeering. Respected for her quick wit, aristocratic bearing, fiery temper, and unforgiving memory, she's the daughter of the first Prince of the Market (who disappeared ~30 years ago), and perhaps his only worthy successor."
+      "sanctuary02": {
+        "name": "Karkhrezhra",
+        "description": "See '6. The Sanctuary' for more details"
       },
-      "raakes": {
-        "name": "Ma'am Raakës",
-        "description": "The half-elven owner of the Coral Reef, a four-storey, flamboyant seaside manor-house (and the largest festhall in town.) Beneath her passionate facade, she remains a cold-eyed power-broker amongst the merchants and nobility... and, it might be rumored, society's less-savory elements."
+      "ramblehouse": {
+        "name": "Cham Larringfass",
+        "description": "See '7. Ramblehouse' for more details"
       },
-      "droaeb": {
-        "name": "Jorsten Droaeb",
-        "description": "The Dwarven Master of Games at Serpent's Run (the city's hippodrome.) A doughty, jocund old salt, he hosts horse- and dog-races, displays of magic, circus performances, and (on rare occasions) mock-gladiatorial battles - but despite ever-more-frequent requests, never books what he deems bloodsport."
+      "salvage01": {
+        "name": "Mathë Seendar",
+        "description": "See '8. The Salvage' for more details"
+      },
+      "salvage02": {
+        "name": "Bordnar Seendar",
+        "description": "See '8. The Salvage' for more details"
+      },
+      "wonders": {
+        "name": "Agrit Khuldugar",
+        "description": "See '9. The Wonders' for more details"
+      },
+      "clamor": {
+        "name": "Stagundarsha (\"Arsha\") Firehand",
+        "description": "See '10. The Clamor' for more details"
       }
     }
   }

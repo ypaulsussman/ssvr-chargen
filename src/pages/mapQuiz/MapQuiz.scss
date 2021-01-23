@@ -3,13 +3,26 @@ img {
   max-width: 100%;
 }
 
-area {
-  cursor: pointer;
+summary {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+details {
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
 }
 
 .mapquiz {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
+
+  h1 {
+    margin-left: 40px;
+  }
 }
 
 .map-and-legend {
@@ -17,12 +30,12 @@ area {
   justify-content: center;
 }
 
-.legend__wrapper {
+.map__wrapper {
   margin-left: 40px;
-  width: 31%;
-  white-space: pre-line;
 }
 
-.location-list__wrapper{
-  max-width: 789px;
+.legend__wrapper {
+  margin-left: 40px;
+  width: 50%;
+  white-space: pre-line;
 }

@@ -1,69 +1,56 @@
 {
   "legend": [
     {
-      "name": "The Vilhon Reach",
-      "coordinates": "288,372,302,422,401,396,576,246,536,198",
-      "description": "This fertile, subtropical land is divided up into quarreling city-states and petty nations. For all its unrest, the Vilhon remains vital to the whole of Faerûn: it forms the trade link between the Lake of Steam, the plains of the Shaar, and all the rest of the continent through its ports on the Sea of Fallen Stars.\n\nMost sages recognize the Vilhon Reach as the cradle from which waves of humans spread forth to conquer and inhabit Faerûn. Something of this adventuresome spirit is still present in the Reach; many of the locals leave their homeland to seek their fortunes as merchants, sailors, or soldiers.\n\nEthnic Chondathans are generally tawny-skinned folk with brown hair ranging from almost blond to almost black, and green or brown eyes.\n\nSpellcasters are well advised to keep a low profile in the Reach, where mages have a reputation for capricious use of power. Elves and half-elves are tolerated but not loved, and nonhumans in general are a quiet minority here."
+      "name": "Town Overview",
+      "description": "As the road through Silverymoon Pass finishes its descent from the Nether Mountains, it passes an old dwarf watchtower from the days of Old Delzoun. A small town clusters about it, a caravan-stop for those traveling between Sundabar and Silverymoon. \n\nThis is Auvandell, named for a human hero said to have slain a dragon here in the service of the king of Delzoun. The dwarf tower was raised over the wyrm’s hoard (or so it’s claimed.)\n\nA handful of towns like this dot the Rauvin Vale and the southern portions of Old Delzoun. While Auvandell is nominally part of the lands of Sundabar, in practice the town is left to govern itself.\n\nThe land nearby is rugged and difficult to farm. Goatherds and shepherds make up most of the town’s agricultural base, and apple and cherry orchards do well on the south-facing hillsides near the town.\n\nTwo small mines in the hills nearby account for most of Auvandell’s industry; a smelter here turns out ingots of copper, lead, and iron, which are sent down to Sundabar in sturdy carts pulled by teams of oxen."
     },
     {
-      "name": "Chondath",
-      "coordinates": "569,313,402,445,435,488,606,335",
-      "description": "To look on Chondath now, a scattering of allied city-states and towns strung along the southern shore of the Sea of Fallen Stars, it’s hard to believe this is the same nation that produced the merchants who settled the powerhouses of Sembia, Cormyr, Impiltur, and half a dozen more kingdoms.\n\nMost other regions in the Vilhon were once part of its empire: now, Chondath is a land darkened by its fall from glory, by the grasping ambitions of its rulers, and by foes all around it. Trade keeps a constant flow of folk leaving and arriving in Chondath from afar, and leads to more tolerance of varying ways and outlanders than visitors expect."
+      "name": "1. The Watchtower",
+      "description": "Two storeys high, this dwarven tower hearkens back to the era of Old Delzoun, and still sees infrequent use by town patrols.\n\nDespite being centuries old, its stonework still holds strong; beyond the vantage it offers, however, there's little of interest here.\n\nHaving sworn off the drink more than a decade past, Patrol Captain Orrum Rast can be found here surveilling the lands below many evenings."
     },
     {
-      "name": "Arrabar",
-      "coordinates": "252,434,319,436,322,466,309,470,299,457,252,457,252,444",
-      "description": "Arrabar is a sprawling and ancient city, the proud martial capital of a shrunken empire. Despite its age, the metropolis is clean and well maintained.\n\nIts people are fisherfolk, merchants, craftsfolk, and mercenaries; its ruler, an avaricious schemer and one of the few prominent wizards in the region."
+      "name": "2. Auvanhall",
+      "description": "The town's central meeting house, this building hosts council meetings and, in foul weather, all of the various training sessions and celebrations normally held in the Commons.\n\nIn addition to its great common room for feasts and meetings, the structure also contains several barracks held in reserve for the unexpected.\n\nAuvanhall’s extensive basement contains formidable stores of siege rations, weapons, and even minor potions."
     },
     {
-      "name": "Nimpeth",
-      "coordinates": "165,449,233,450,232,487,212,488,212,478,170,472,165,456",
-      "description": "One of the five Free Cities of the Reach, famous for its wine (its vineyards are among the best in Faerun), its mercenaries... and its slave trade."
+      "name": "3. The Commons",
+      "description": "A wide amphitheater with a stone floor and raised stage at one end, by day the Commons serves as Auvandell's mustering ground, upon which its residents engage in martial practice (some dedicated citizens train here nearly every day, but the only expectation is for able-bodied townsfolk attend once monthly.)\n\nBy night, however, the Commons transforms into a place of relaxation and celebration as townsfolk gather.\n\nIn addition, the rare school lesson is often conducted on the rows of tiered seating, and the stage is used for both announcements and even the rare performance."
     },
     {
-      "name": "Hlondeth",
-      "coordinates": "191,426,191,403,238,403,248,388,265,394,267,422",
-      "description": "Hlondeth is a stunning, ancient metropolis known broadly as the City of Serpents.\n\nDespite their yuan-ti heritage, the Extaminos family has ruled Hlondeth, lightly and profitably, for several hundred years.\n\nThe city has good relationships with both Chondath and Turmish, though it jealously guards its independence."
+      "name": "4. The Countinghouse",
+      "description": "A large, relatively stately building, the Auvandell Exchequer sees to both the banking and documenting needs of locals and traveling merchants alike.\n\nIts proprietor is town council member Lessë Lessë Nedumyr, who proudly traces her lineage all the way to the bank (and town's) founding caravanners. She takes to her job well enough, though she's perhaps most noted for her skill at arms in the training arena."
     },
     {
-      "name": "Sespech",
-      "coordinates": "241,505,246,566,300,552,353,548,354,535,318,535,299,510,251,511",
-      "description": "Sespech is a barony located at the southwest end of the Vilhon Reach. Once a part of Chondath, Sespech maintains its independence delicately, and just barely.\n\nBaron Aldorn Thuragar (LN male human Ftr12) rules Sespech. Once a bold adventurer, Thuragar relies on several old comrades from his former company, the Band of Iron, to help him govern the country.\n\n"
+      "name": "5. The Field",
+      "description": "Named for its position on the sloped ascent between the town’s two inner gates (that is, inside the \"killing field\"), the only real tavern in town began as a way for Rastyr Gyrban to finance the production of his beloved moonshine.\n\nA strange structure, its walls begin a foot off the ground and its roof is made from a thickly-waxed tarp of canvas. When the furious local storms roll down from the mountains, Rastyn pulls back the tarp to let the rain and the slope wash away the bar's filth."
     },
     {
-      "name": "Mimph",
-      "coordinates": "279,466,261,481,261,498,312,497,312,488,283,466",
-      "description": "Mimph is only miles by sea from 'Shining Arrabar', capital of Chondath; no love is lost between the two cities.\n\nMost cities across the Vilhon date their founding to no earlier than first century Dalereckoning, some twelve centuries ago. Mimph, however, is similar only to the cities of Hlondeth and Iljak in that it contains several ruins and monuments many - many - centuries older than that.\n\nShips from Arrabar board vessels bound for Mimph from time to time and confiscate their cargoes: this piracy has recently led Baron Thuragar to establish a navy. The current overlord of Mimph is Admiral Kalisa Tauno (NG female moon half-elf Rgr14), currently the one of the only high officials in Sespech who is not an old adventuring companion of Thuragar’s."
+      "name": "6. The Sanctuary",
+      "description": "A decade or two back, missionaries of Tyr constructed this house of worship, Sanctuary of the Just. \n\nSome townsfolk look askance at the clerics' particularly grim brand of piety, and possible underlying allegiance to their home city of Sundabar. Still, no one would actually turn away such hardworking and valuable residents, especially as they decline to engage in any governance or rulership.\n\nThe current matron of the sanctuary is Holy Arbiter Tyedra Morlund, younger sister to the current head of the (much larger) Sundabarran temple to the south. Speculation abounds as to why she toils here, instead of alongside her prominent sibling.\n\nThe other resident of interest is Karkhrezhra, a blind and lame half-orc with minor oracular powers. He fled an upbringing at the hands of tribe Red Fang, escaping to the first settlement he could find."
     },
     {
-      "name": "The Chondalwood",
-      "coordinates": "529,434,626,431,709,621,787,633,781,703,595,656,547,456",
-      "description": "The Chondalwood is one of the largest forests in the Realms; indeed, it is a rarity in that its borders continue to expand.\n\nSatyrs, centaurs, a sizable nation of elves, and the secretive ghostwise halflings all roam this land, as well as various semi-sentient plant creatures.\n\nThe woods' druids are savage, angry dervishes, as willing to attack paladins as orcs in their protection of the trees."
+      "name": "7. Ramblehouse",
+      "description": "Built by the enterprising halfling Cham Larringfass, this sprawling, eccentric manor functions as the town's inn and boardinghouse. Packed with rooms of all shapes and sizes, it also houses a sizable fraction of the town's small folk."
     },
     {
-      "name": "The Golden Plains",
-      "coordinates": "379,584,411,608,552,643,561,663,435,639,392,626,363,595",
-      "description": "Named for their tall, golden grasses, these fertile lands blanket the whole area between the Nagaflow and Arran rivers."
+      "name": "8. The Salvage",
+      "description": "The closest thing Auvandell has to a general store, the Silverymoon Pass Tools and Salvage is a clutter of both mundane goods useful to townsfolk and “treasures” purchased from patrols and adventurers. It's run by the husband-and-wife crew of Bordnar and Mathë Seendar.\n\nMathë is a shrewd businessperson in most matters, but unreserved in her passion for paraphernalia from the regional dwarven, elven, and human kingdoms of ages past.\n\nBordnar, meanwhile, is obsessed with his own pursuits as the town’s only resident apothecary; from his workshop in the back of the store, he crafts potions and unguents both magical and mundane. This half-orc's grinning, calm industriousness is one of the reasons Auvandell is such an (at least relatively) open town for those with Orcish ancestry."
     },
     {
-      "name": "The Nagawater",
-      "coordinates": "286,573,297,647,333,674,345,672,334,621,324,621,305,566",
-      "description": "A large number of nagas live in the southern end of this deep lake. By old agreement, the nagas stick to the south half the lake, and humans remain in the north."
+      "name": "9. The Wonders",
+      "description": "The Clan Khuldugar Scriptorium rarely houses more than few magical items for purchase or trade; far more valuable is the lore Agrit Khuldugar can retrieve, and the knowledge she can impart.\n\nA surprisingly talkative dwarf, Agrit lights up when discussing the arcane. She’s always eager to examine unfamiliar magic items, and anyone who appeals to her sense of wonder and mystery can usually convince her to identify a magic item for free."
     },
     {
-      "name": "Ormpetarr",
-      "coordinates": "317,574,330,574,336,580,409,573,406,561,332,564,323,561,314,567",
-      "description": "The capital of Sespech is an ancient, walled metropolis whose major industries are trade, horse raising, fishing, and agriculture. Ormpetarr handles all the trade moving along the Golden Road, and serves as a banking center as well."
+      "name": "10. The Clamor",
+      "description": "The majority of Firehand Metals' work is in smelting ore brought in from the local mines, before shipping it on to Sundabar; relatively little metal is actually worked at the smithy.\n\nStagundarsha (\"Arsha\") Firehand, the owner and forgemaster, would dearly like that to change. She's formulating a years- or decades-long plan to expand the lowertown into a complex of metallurgists and other crafters.\n\nThe only other member of Clan Khuldugar in town, Arsha fought in the reclamation of Citadel Felbarr, two winters' past, before retiring to the town her wife Agrit had been raised in."
     },
     {
-      "name": "Fort Arran",
-      "coordinates": "413,519,338,515,334,497,317,500,317,514,328,518,328,529,410,531",
-      "description": "This city-around-a-fortress guards the road south into the heart of Sespech and keeps a constant watch on Chondath: if a war is to be fought, it may be the site of the first battle. General Murcius Stonehall (LN male dwarf Ftr11) leads the garrison."
+      "name": "11. The Hopespring",
+      "description": "This astonishingly prolific stream provides the town with a waterfall of pure water, filling the town reservoir before filtering down through cracks in the stone once more.\n\nA mute elven druid quietly watches over the spring and its reservoir, though what purpose his quiet contemplation serves is anyone’s guess. Dubbed Silvertop by the townsfolk, he has resided on this hill since before the town was settled (...some three centuries past.)\n\nHe generally holds himself aloof from the town’s proceedings, yet the few occasions upon which he performs magic (healing a dying child, calling lightning down on bandits) earn him respect from most residents."
     },
     {
-      "name": "Turmish",
-      "coordinates": "235,144,429,141,427,203,248,212",
-      "description": "Turmish is a rich land of villages and few cities: peaceful, civilized, and well-managed.\n\nThe people of Turmish are tall and mahogany-skinned. Widely regarded as fair traders, dependable scholars, and excellent craftsmen, they're welcome throughout the Sea of Fallen Stars."
+      "name": "12. Barterstones",
+      "description": "Most of Auvandell's general trading is conducted at an open-air market held among several low, broad slabs of flat rock just east of town.\n\nOriginally, the market was only used for trading with orcs and outsiders who hadn’t yet earned the people’s trust, but over time the town’s farmers and herders found it easier to meet here than to guide wagons and livestock through the town’s steep and narrow streets\n\nNow, the vast majority of local trade occurs here, with market days coming twice a week."
     }
   ]
 }

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import mapWithGrid from "./vilhonReachGrid.png";
+import mapWithLegend from "./Auvandell_sites.jpg";
 import data from "./legendData.json";
 import "./MapQuiz.scss";
 
 export default class MapQuiz extends Component {
   constructor() {
     super();
-    this.state = { ...data, openedLandmark: {} };
+    this.state = { ...data };
   }
 
   openLandmark = (landmark) => {
@@ -16,53 +16,25 @@ export default class MapQuiz extends Component {
   };
 
   render() {
-    const { openedLandmark, legend } = this.state;
+    const { legend } = this.state;
 
     return (
       <div className="mapquiz">
-        <h1>The Vilhon Reach:</h1>
-        <main className="mapquiz__content">
-          <section className="map-and-legend">
+        <h1>The town of Auvendell</h1>
+        <main className="map-and-legend">
             <div className="map__wrapper">
-              <map name="legend_links">
-                {legend.map((landmark) => (
-                  <area
-                    alt={landmark.name}
-                    key={landmark.name}
-                    shape="poly"
-                    coords={landmark.coordinates}
-                    onClick={() => {
-                      this.openLandmark(landmark);
-                    }}
-                  />
-                ))}
-              </map>
-              <img
-                src={mapWithGrid}
-                alt="Map of the Vilhon Reach"
-                useMap="#legend_links"
-              />
+              <img src={mapWithLegend} alt="Map of Auvendell" />
             </div>
             <div className="legend__wrapper">
-              <h2>{openedLandmark.name}</h2>
-
-              <p className="legend__description">
-                {openedLandmark.description}
-              </p>
+              {legend.map((legend) => (
+                <details key={legend.name}>
+                  <summary className="legend__description">
+                    {legend.name}
+                  </summary>
+                  <p>{legend.description}</p>
+                </details>
+              ))}
             </div>
-          </section>
-          <p>*grid hexes are 60 miles, or ~2-3 days&apos; overland travel</p>
-          <div className="location-list__wrapper">
-            <p>
-              also it turns out styling the links on the map above is gonna be a
-              huge pain in the ass, so instead here&apos;s a list of locations above
-              w/ clickable descriptions (in descending order of importance): The
-              Vilhon Reach, Sespech, Mimph (where you start), Ormpetarr, Fort
-              Arran, Chondath, Arrabar, Turmish, The Chondalwood, The Nagawater,
-              The Golden Plains, Nimpeth, Hlondeth.
-            </p>
-          </div>
-          {/* <section className="quiz__content"></section> */}
         </main>
       </div>
     );
