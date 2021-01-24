@@ -64,7 +64,7 @@ class CharGen extends Component {
     return (
       <div className="chargen">
         <main className="chargen__content">
-          <h1 className="chargen__heading">Vilhon Reach PC Generator</h1>
+          <h1 className="chargen__heading">Silver Marches PC Generator</h1>
           <button onClick={this.genNewChar}>Randomize PC!</button>
           {currentChar && (
             <>

@@ -54,8 +54,8 @@ const Lander = () => {
           using some of 1997&apos;s finest HTML.
         </p>
         <p>
-          I don&apos;t want to make reference to e.g. &quot;the ruler of Chondath&quot; and
-          have people go &quot;dafuk is a Chondath lol&quot; -- so this just
+          I don&apos;t want to make reference to e.g. &quot;the wizards of fallen Netheril&quot; and
+          have people go &quot;dafuk is a Netheril lol&quot; -- so this just
           includes some basic geography/society of the region through which
           you&apos;ll be traipsing.
         </p>

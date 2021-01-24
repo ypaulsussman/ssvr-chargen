@@ -9,7 +9,7 @@ describe("chargen page", () => {
     /^Archetype:/,
     /^Campaign Hook:/,
     /^Background:/,
-    /^NPC Contact:/,
+    /^\(Optional\) NPC Contact:/,
   ];
 
   beforeEach(() => {

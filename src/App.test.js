@@ -37,7 +37,7 @@ describe("basic app routing", () => {
         </Router>
       );
 
-      expect(screen.getByText("Vilhon Reach PC Generator")).toBeInTheDocument();
+      expect(screen.getByText("Silver Marches PC Generator")).toBeInTheDocument();
     });
 
     test("renders mapquiz page on mapquiz url", () => {
@@ -49,7 +49,7 @@ describe("basic app routing", () => {
         </Router>
       );
 
-      expect(screen.getByText("*grid hexes are 60 miles, or ~2-3 days' overland travel")).toBeInTheDocument();
+      expect(screen.getByText("The town of Auvendell")).toBeInTheDocument();
     });
     
   });
